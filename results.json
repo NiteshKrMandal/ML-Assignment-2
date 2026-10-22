@@ -1,0 +1,354 @@
+{
+  "source": "Final measurements reported from the completed notebook run; verify against notebook outputs before final submission.",
+  "q1": {
+    "bagging_clean": [
+      {
+        "n_trees": 1,
+        "train_accuracy": 0.7208,
+        "validation_accuracy": 0.4,
+        "test_accuracy": 0.3875,
+        "distinct_images": 149.0
+      },
+      {
+        "n_trees": 5,
+        "train_accuracy": 0.975,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.675,
+        "distinct_images": 152.2
+      },
+      {
+        "n_trees": 10,
+        "train_accuracy": 0.9958,
+        "validation_accuracy": 0.725,
+        "test_accuracy": 0.7875,
+        "distinct_images": 151.5
+      },
+      {
+        "n_trees": 25,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.85,
+        "test_accuracy": 0.8875,
+        "distinct_images": 152.24
+      },
+      {
+        "n_trees": 50,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.875,
+        "test_accuracy": 0.9125,
+        "distinct_images": 152.74
+      },
+      {
+        "n_trees": 100,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.9125,
+        "test_accuracy": 0.9125,
+        "distinct_images": 152.43
+      },
+      {
+        "n_trees": 200,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.9125,
+        "test_accuracy": 0.8875,
+        "distinct_images": 152.7
+      }
+    ],
+    "oob": [
+      {
+        "n_trees": 1,
+        "oob_accuracy": 0.2637,
+        "disagreement": null,
+        "mean_vote_margin": 1.0
+      },
+      {
+        "n_trees": 5,
+        "oob_accuracy": 0.3641,
+        "disagreement": 0.725,
+        "mean_vote_margin": 0.2825
+      },
+      {
+        "n_trees": 10,
+        "oob_accuracy": 0.4008,
+        "disagreement": 0.7281,
+        "mean_vote_margin": 0.3112
+      },
+      {
+        "n_trees": 25,
+        "oob_accuracy": 0.5958,
+        "disagreement": 0.7477,
+        "mean_vote_margin": 0.3045
+      },
+      {
+        "n_trees": 50,
+        "oob_accuracy": 0.6708,
+        "disagreement": 0.7543,
+        "mean_vote_margin": 0.3065
+      },
+      {
+        "n_trees": 100,
+        "oob_accuracy": 0.7292,
+        "disagreement": 0.7633,
+        "mean_vote_margin": 0.3078
+      },
+      {
+        "n_trees": 200,
+        "oob_accuracy": 0.7792,
+        "disagreement": 0.758,
+        "mean_vote_margin": 0.3163
+      }
+    ],
+    "selected_tree": {
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6125,
+      "test_accuracy": 0.4625,
+      "leaves": 46,
+      "mean_train_samples_per_leaf": 5.22,
+      "singleton_leaf_fraction": 0.1304
+    },
+    "clean_masked": [
+      {
+        "dataset": "Clean",
+        "model": "Single Tree",
+        "accuracy": 0.4625,
+        "confidence": 1.0
+      },
+      {
+        "dataset": "Clean",
+        "model": "Bagging",
+        "accuracy": 0.9125,
+        "confidence": 0.4029
+      },
+      {
+        "dataset": "Masked",
+        "model": "Single Tree",
+        "accuracy": 0.4625,
+        "confidence": 1.0
+      },
+      {
+        "dataset": "Masked",
+        "model": "Bagging",
+        "accuracy": 0.725,
+        "confidence": 0.3047
+      }
+    ]
+  },
+  "q2": {
+    "toy_samme": {
+      "weighted_error": 0.333333,
+      "alpha": 1.386294,
+      "new_weights": [
+        0.083333,
+        0.083333,
+        0.083333,
+        0.083333,
+        0.333333,
+        0.333333
+      ]
+    },
+    "selected_samme": {
+      "depth": 4,
+      "rounds": 50,
+      "validation_accuracy": 0.45
+    },
+    "bagging_vs_boosting": [
+      {
+        "model": "Bagging",
+        "learners": 25,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.85,
+        "clean_test_accuracy": 0.8375,
+        "training_time_seconds": 57.9487
+      },
+      {
+        "model": "Boosting",
+        "learners": 25,
+        "train_accuracy": 0.4625,
+        "validation_accuracy": 0.3,
+        "clean_test_accuracy": 0.1625,
+        "training_time_seconds": 17.5215
+      },
+      {
+        "model": "Bagging",
+        "learners": 50,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.8625,
+        "clean_test_accuracy": 0.8375,
+        "training_time_seconds": 115.201
+      },
+      {
+        "model": "Boosting",
+        "learners": 50,
+        "train_accuracy": 0.9375,
+        "validation_accuracy": 0.45,
+        "clean_test_accuracy": 0.35,
+        "training_time_seconds": 34.5706
+      },
+      {
+        "model": "Bagging",
+        "learners": 100,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.8875,
+        "clean_test_accuracy": 0.9,
+        "training_time_seconds": 238.1604
+      },
+      {
+        "model": "Boosting",
+        "learners": 100,
+        "train_accuracy": 0.9875,
+        "validation_accuracy": 0.4125,
+        "clean_test_accuracy": 0.4,
+        "training_time_seconds": 73.9694
+      }
+    ],
+    "final_clean_masked": [
+      {
+        "dataset": "Clean",
+        "model": "Single Tree",
+        "accuracy": 0.4625,
+        "confidence": 1.0
+      },
+      {
+        "dataset": "Clean",
+        "model": "Bagging",
+        "accuracy": 0.9125,
+        "confidence": 0.4029
+      },
+      {
+        "dataset": "Clean",
+        "model": "Boosting",
+        "accuracy": 0.35,
+        "confidence": 0.1275
+      },
+      {
+        "dataset": "Masked",
+        "model": "Single Tree",
+        "accuracy": 0.4625,
+        "confidence": 1.0
+      },
+      {
+        "dataset": "Masked",
+        "model": "Bagging",
+        "accuracy": 0.725,
+        "confidence": 0.3047
+      },
+      {
+        "dataset": "Masked",
+        "model": "Boosting",
+        "accuracy": 0.175,
+        "confidence": 0.1412
+      }
+    ],
+    "difficult_training_example": {
+      "training_index": 71,
+      "true_identity": 11,
+      "initial_weight": 0.004167,
+      "final_weight": 0.067203,
+      "weight_ratio": 16.13,
+      "correct_predictions_out_of_100": 12,
+      "incorrect_predictions_out_of_100": 88
+    }
+  },
+  "q3": {
+    "bootstrap_resamples": 30,
+    "selected_models_bias_variance": [
+      {
+        "model": "Single Tree",
+        "bias_squared": 0.4243,
+        "variance": 0.6674,
+        "mean_accuracy": 0.4542,
+        "std_accuracy": 0.0502
+      },
+      {
+        "model": "Bagging",
+        "bias_squared": 0.1652,
+        "variance": 0.2748,
+        "mean_accuracy": 0.78,
+        "std_accuracy": 0.032
+      },
+      {
+        "model": "Boosting",
+        "bias_squared": 0.7676,
+        "variance": 0.7324,
+        "mean_accuracy": 0.25,
+        "std_accuracy": 0.0721
+      }
+    ],
+    "depth_comparison": [
+      {
+        "depth": 2,
+        "model": "Single Tree",
+        "bias_squared": 1.7997,
+        "variance": 0.082,
+        "mean_accuracy": 0.0592,
+        "std_accuracy": 0.0064
+      },
+      {
+        "depth": 2,
+        "model": "Bagging",
+        "bias_squared": 0.9398,
+        "variance": 0.8261,
+        "mean_accuracy": 0.1171,
+        "std_accuracy": 0.0513
+      },
+      {
+        "depth": "None",
+        "model": "Single Tree",
+        "bias_squared": 0.4243,
+        "variance": 0.6674,
+        "mean_accuracy": 0.4542,
+        "std_accuracy": 0.0502
+      },
+      {
+        "depth": "None",
+        "model": "Bagging",
+        "bias_squared": 0.1652,
+        "variance": 0.2748,
+        "mean_accuracy": 0.78,
+        "std_accuracy": 0.032
+      },
+      {
+        "depth": 16,
+        "model": "Single Tree",
+        "bias_squared": 0.894,
+        "variance": 0.5785,
+        "mean_accuracy": 0.2637,
+        "std_accuracy": 0.0328
+      },
+      {
+        "depth": 16,
+        "model": "Bagging",
+        "bias_squared": 0.346,
+        "variance": 0.429,
+        "mean_accuracy": 0.6125,
+        "std_accuracy": 0.0531
+      }
+    ],
+    "accuracy_improvements_percentage_points": {
+      "depth_2": 5.79,
+      "depth_unrestricted": 32.58,
+      "depth_16": 34.88
+    },
+    "final_comparison": [
+      {
+        "model": "Single Tree",
+        "clean_test_accuracy": 0.4625,
+        "masked_test_accuracy": 0.4625,
+        "bias_squared": 0.4243,
+        "variance": 0.6674
+      },
+      {
+        "model": "Bagging (100 trees)",
+        "clean_test_accuracy": 0.9125,
+        "masked_test_accuracy": 0.725,
+        "bias_squared": 0.1652,
+        "variance": 0.2748
+      },
+      {
+        "model": "SAMME Boosting (depth 4, 50 rounds)",
+        "clean_test_accuracy": 0.35,
+        "masked_test_accuracy": 0.175,
+        "bias_squared": 0.7676,
+        "variance": 0.7324
+      }
+    ]
+  }
+}

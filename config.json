@@ -1,0 +1,42 @@
+{
+  "project": "ML Assignment 2",
+  "student": "Nitesh Kumar Mandal",
+  "roll_number": "M26CSA005",
+  "repository": "https://github.com/NiteshKrMandal/ML-Assignment-2",
+  "dataset": {
+    "name": "Olivetti Faces",
+    "n_images": 400,
+    "n_identities": 40,
+    "image_shape": [64, 64],
+    "features_per_image": 4096,
+    "images_per_identity": {
+      "train": 6,
+      "validation": 2,
+      "test": 2
+    }
+  },
+  "random_seed": 26005,
+  "split_file": "olivetti_split.npz",
+  "split_keys": ["Xtrain_ids", "Xval_ids", "Xtest_ids"],
+  "mask": {
+    "rows": [24, 39],
+    "columns": [24, 39],
+    "fill_value": 0
+  },
+  "selected_models": {
+    "single_tree": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "bagging": {
+      "n_estimators": 100,
+      "base_tree_max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "samme": {
+      "max_depth": 4,
+      "rounds": 50
+    }
+  },
+  " qn 3": "bias-variance metrics use 30 bootstrap refits."
+}
