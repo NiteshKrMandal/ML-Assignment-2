@@ -1,0 +1,1437 @@
+Time         #                                     Log Message
+
+9.8s	0	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.8s	1	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.8s	2	0.00s - to python to disable frozen modules.
+9.8s	3	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.7s	4	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.7s	5	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.7s	6	0.00s - to python to disable frozen modules.
+10.7s	7	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+15.4s	8	downloading Olivetti faces from https://ndownloader.figshare.com/files/5976027 to /root/scikit_learn_data
+16.7s	9	(400, 4096)
+16.7s	10	(400,)
+16.7s	11	{'data': array([[0.30991736, 0.3677686 , 0.41735536, ..., 0.15289256, 0.16115703,
+16.7s	12	        0.1570248 ],
+16.7s	13	       [0.45454547, 0.47107437, 0.5123967 , ..., 0.15289256, 0.15289256,
+16.7s	14	        0.15289256],
+16.7s	15	       [0.3181818 , 0.40082645, 0.49173555, ..., 0.14049587, 0.14876033,
+16.7s	16	        0.15289256],
+16.7s	17	       ...,
+16.7s	18	       [0.5       , 0.53305787, 0.607438  , ..., 0.17768595, 0.14876033,
+16.7s	19	        0.19008264],
+16.7s	20	       [0.21487603, 0.21900827, 0.21900827, ..., 0.57438016, 0.59090906,
+16.7s	21	        0.60330576],
+16.7s	22	       [0.5165289 , 0.46280992, 0.28099173, ..., 0.35950413, 0.3553719 ,
+16.7s	23	        0.38429752]], dtype=float32), 'images': array([[[0.30991736, 0.3677686 , 0.41735536, ..., 0.37190083,
+16.7s	24	         0.3305785 , 0.30578512],
+16.7s	25	        [0.3429752 , 0.40495867, 0.43801653, ..., 0.37190083,
+16.7s	26	         0.338843  , 0.3140496 ],
+16.7s	27	        [0.3429752 , 0.41735536, 0.45041323, ..., 0.38016528,
+16.7s	28	         0.338843  , 0.29752067],
+16.7s	29	        ...,
+16.7s	30	        [0.21487603, 0.20661157, 0.2231405 , ..., 0.15289256,
+16.7s	31	         0.16528925, 0.17355372],
+16.7s	32	        [0.20247933, 0.2107438 , 0.2107438 , ..., 0.14876033,
+16.7s	33	         0.16115703, 0.16528925],
+16.7s	34	        [0.20247933, 0.20661157, 0.20247933, ..., 0.15289256,
+16.7s	35	         0.16115703, 0.1570248 ]],
+16.7s	36	
+16.7s	37	       [[0.45454547, 0.47107437, 0.5123967 , ..., 0.19008264,
+16.7s	38	         0.18595041, 0.18595041],
+16.7s	39	        [0.446281  , 0.48347107, 0.5206612 , ..., 0.21487603,
+16.7s	40	         0.2107438 , 0.2107438 ],
+16.7s	41	        [0.49586776, 0.5165289 , 0.53305787, ..., 0.20247933,
+16.7s	42	         0.20661157, 0.20661157],
+16.7s	43	        ...,
+16.7s	44	        [0.77272725, 0.78099173, 0.7933884 , ..., 0.1446281 ,
+16.7s	45	         0.1446281 , 0.1446281 ],
+16.7s	46	        [0.77272725, 0.7768595 , 0.7892562 , ..., 0.13636364,
+16.7s	47	         0.13636364, 0.13636364],
+16.7s	48	        [0.7644628 , 0.7892562 , 0.78099173, ..., 0.15289256,
+16.7s	49	         0.15289256, 0.15289256]],
+16.7s	50	
+16.7s	51	       [[0.3181818 , 0.40082645, 0.49173555, ..., 0.40082645,
+16.7s	52	         0.3553719 , 0.30991736],
+16.7s	53	        [0.30991736, 0.3966942 , 0.47933885, ..., 0.40495867,
+16.7s	54	         0.37603307, 0.30165288],
+16.7s	55	        [0.26859504, 0.34710744, 0.45454547, ..., 0.3966942 ,
+16.7s	56	         0.37190083, 0.30991736],
+16.7s	57	        ...,
+16.7s	58	        [0.1322314 , 0.09917355, 0.08264463, ..., 0.13636364,
+16.7s	59	         0.14876033, 0.15289256],
+16.7s	60	        [0.11570248, 0.09504132, 0.0785124 , ..., 0.1446281 ,
+16.7s	61	         0.1446281 , 0.1570248 ],
+16.7s	62	        [0.11157025, 0.09090909, 0.0785124 , ..., 0.14049587,
+16.7s	63	         0.14876033, 0.15289256]],
+16.7s	64	
+16.7s	65	       ...,
+16.7s	66	
+16.7s	67	       [[0.5       , 0.53305787, 0.607438  , ..., 0.28512397,
+16.7s	68	         0.23966943, 0.21487603],
+16.7s	69	        [0.49173555, 0.5413223 , 0.60330576, ..., 0.29752067,
+16.7s	70	         0.20247933, 0.20661157],
+16.7s	71	        [0.46694216, 0.55785125, 0.6198347 , ..., 0.29752067,
+16.7s	72	         0.17768595, 0.18595041],
+16.7s	73	        ...,
+16.7s	74	        [0.03305785, 0.46280992, 0.5289256 , ..., 0.17355372,
+16.7s	75	         0.17355372, 0.1694215 ],
+16.7s	76	        [0.1570248 , 0.5247934 , 0.53305787, ..., 0.16528925,
+16.7s	77	         0.1570248 , 0.18595041],
+16.7s	78	        [0.45454547, 0.5206612 , 0.53305787, ..., 0.17768595,
+16.7s	79	         0.14876033, 0.19008264]],
+16.7s	80	
+16.7s	81	       [[0.21487603, 0.21900827, 0.21900827, ..., 0.71487606,
+16.7s	82	         0.71487606, 0.6942149 ],
+16.7s	83	        [0.20247933, 0.20661157, 0.20661157, ..., 0.7107438 ,
+16.7s	84	         0.7066116 , 0.6942149 ],
+16.7s	85	        [0.2107438 , 0.20661157, 0.20661157, ..., 0.6859504 ,
+16.7s	86	         0.69008267, 0.6942149 ],
+16.7s	87	        ...,
+16.7s	88	        [0.2644628 , 0.25619835, 0.2603306 , ..., 0.5413223 ,
+16.7s	89	         0.57438016, 0.59090906],
+16.7s	90	        [0.26859504, 0.2644628 , 0.26859504, ..., 0.56198347,
+16.7s	91	         0.58264464, 0.59504133],
+16.7s	92	        [0.27272728, 0.26859504, 0.27272728, ..., 0.57438016,
+16.7s	93	         0.59090906, 0.60330576]],
+16.7s	94	
+16.7s	95	       [[0.5165289 , 0.46280992, 0.28099173, ..., 0.5785124 ,
+16.7s	96	         0.5413223 , 0.60330576],
+16.7s	97	        [0.5165289 , 0.45041323, 0.29338843, ..., 0.58264464,
+16.7s	98	         0.553719  , 0.5785124 ],
+16.7s	99	        [0.5165289 , 0.44214877, 0.29338843, ..., 0.59917355,
+16.7s	100	         0.5785124 , 0.54545456],
+16.7s	101	        ...,
+16.7s	102	        [0.39256197, 0.41322315, 0.38842976, ..., 0.33471075,
+16.7s	103	         0.37190083, 0.3966942 ],
+16.7s	104	        [0.39256197, 0.38429752, 0.40495867, ..., 0.3305785 ,
+16.7s	105	         0.35950413, 0.37603307],
+16.7s	106	        [0.3677686 , 0.40495867, 0.3966942 , ..., 0.35950413,
+16.7s	107	         0.3553719 , 0.38429752]]], dtype=float32), 'target': array([ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  1,  1,  1,  1,  1,
+16.7s	108	        1,  1,  1,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  3,
+16.7s	109	        3,  3,  3,  3,  3,  3,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  5,
+16.7s	110	        5,  5,  5,  5,  5,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,
+16.7s	111	        6,  6,  7,  7,  7,  7,  7,  7,  7,  7,  7,  7,  8,  8,  8,  8,  8,
+16.7s	112	        8,  8,  8,  8,  8,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9, 10, 10,
+16.7s	113	       10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11,
+16.7s	114	       11, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13,
+16.7s	115	       13, 13, 13, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 15, 15, 15,
+16.7s	116	       15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16,
+16.7s	117	       17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 18, 18,
+16.7s	118	       18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 20, 20, 20, 20,
+16.7s	119	       20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 22,
+16.7s	120	       22, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 23, 23,
+16.7s	121	       23, 23, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 25,
+16.7s	122	       25, 25, 25, 25, 25, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 27, 27,
+16.7s	123	       27, 27, 27, 27, 27, 27, 27, 27, 28, 28, 28, 28, 28, 28, 28, 28, 28,
+16.7s	124	       28, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 30, 30, 30, 30, 30, 30,
+16.7s	125	       30, 30, 30, 30, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 32, 32, 32,
+16.7s	126	       32, 32, 32, 32, 32, 32, 32, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33,
+16.7s	127	       34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 35, 35, 35, 35, 35, 35, 35,
+16.7s	128	       35, 35, 35, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 37, 37, 37, 37,
+16.7s	129	       37, 37, 37, 37, 37, 37, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 39,
+16.7s	130	       39, 39, 39, 39, 39, 39, 39, 39, 39]), 'DESCR': '.. _olivetti_faces_dataset:\n\nThe Olivetti faces dataset\n--------------------------\n\n`This dataset contains a set of face images`_ taken between April 1992 and\nApril 1994 at AT&T Laboratories Cambridge. The\n:func:`sklearn.datasets.fetch_olivetti_faces` function is the data\nfetching / caching function that downloads the data\narchive from AT&T.\n\n.. _This dataset contains a set of face images: https://cam-orl.co.uk/facedatabase.html\n\nAs described on the original website:\n\n    There are ten different images of each of 40 distinct subjects. For some\n    subjects, the images were taken at different times, varying the lighting,\n    facial expressions (open / closed eyes, smiling / not smiling) and facial\n    details (glasses / no glasses). All the images were taken against a dark\n    homogeneous background with the subjects in an upright, frontal position\n    (with tolerance for some side movement).\n\n**Data Set Characteristics:**\n\n=================   =====================\nClasses                                40\nSamples total                         400\nDimensionality                       4096\nFeatures            real, between 0 and 1\n=================   =====================\n\nThe image is quantized to 256 grey levels and stored as unsigned 8-bit\nintegers; the loader will convert these to floating point values on the\ninterval [0, 1], which are easier to work with for many algorithms.\n\nThe "target" for this database is an integer from 0 to 39 indicating the\nidentity of the person pictured; however, with only 10 examples per class, this\nrelatively small dataset is more interesting from an unsupervised or\nsemi-supervised perspective.\n\nThe original dataset consisted of 92 x 112, while the version available here\nconsists of 64x64 images.\n\nWhen using these images, please give credit to AT&T Laboratories Cambridge.\n'}
+16.7s	131	26005
+18.5s	132	Depth   Leaf Size   Train Accuracy    Validation Accuracy
+18.5s	133	2       1           0.0750            0.0625
+18.8s	134	2       2           0.0750            0.0625
+19.1s	135	2       4           0.0750            0.0625
+20.3s	136	8       1           0.2250            0.1875
+21.5s	137	8       2           0.2250            0.1875
+22.7s	138	8       4           0.2250            0.1875
+23.3s	139	4       1           0.1250            0.1125
+23.9s	140	4       2           0.1250            0.1125
+24.5s	141	4       4           0.1250            0.1125
+26.6s	142	16      1           0.4250            0.2750
+28.7s	143	16      2           0.4250            0.2750
+30.7s	144	16      4           0.4250            0.2750
+33.9s	145	None    1           1.0000            0.6125
+37.0s	146	None    2           0.9875            0.5875
+39.8s	147	None    4           0.9792            0.5750
+39.8s	148	Depth: None
+39.8s	149	Minimum leaf size: 1
+39.8s	150	Training accuracy: 1.0
+39.8s	151	Validation accuracy: 0.6125
+39.9s	152	Results/solution
+39.9s	153	
+39.9s	154	Depth: None
+39.9s	155	Minimum leaf size: 1
+39.9s	156	Training accuracy: 1.0
+39.9s	157	Validation accuracy: 0.6125
+39.9s	158	Test accuracy: 0.4625
+39.9s	159	Number of leaves: 46
+39.9s	160	Mean samples per leaf: 5.22
+39.9s	161	Fraction of leaves with one training image: 0.1304
+490.4s	162	B       Train Accuracy    Validation Accuracy   Test Accuracy     Distinct Images
+490.4s	163	1       0.7208            0.4000                0.3875            149.00
+490.4s	164	5       0.9750            0.6000                0.6750            152.20
+490.4s	165	10      0.9958            0.7250                0.7875            151.50
+490.4s	166	25      1.0000            0.8500                0.8875            152.24
+490.4s	167	50      1.0000            0.8750                0.9125            152.74
+490.4s	168	100     1.0000            0.9125                0.9125            152.43
+490.4s	169	200     1.0000            0.9125                0.8875            152.70
+490.4s	170	
+490.4s	171	Theoretical Expected distinct images: 151.89
+490.4s	172	
+490.4s	173	Comparison with observed values:
+490.4s	174	B       Observed    Expected              
+490.4s	175	1       149.00      151.8932
+490.4s	176	5       152.20      151.8932
+490.4s	177	10      151.50      151.8932
+490.4s	178	25      152.24      151.8932
+490.4s	179	50      152.74      151.8932
+490.4s	180	100     152.43      151.8932
+490.4s	181	200     152.70      151.8932
+490.6s	182	Graph
+491.4s	183	B       OOB Accuracy      Disagreement      Mean Vote Margin
+491.4s	184	1       0.2637            N/A               1.0000
+491.4s	185	5       0.3641            0.7250            0.2825
+491.4s	186	10      0.4008            0.7281            0.3112
+491.4s	187	25      0.5958            0.7477            0.3045
+491.4s	188	50      0.6708            0.7543            0.3065
+491.4s	189	100     0.7292            0.7633            0.3078
+491.4s	190	200     0.7792            0.7580            0.3163
+492.2s	191	Test Set    Model             Accuracy       Mean Confidence
+492.2s	192	Clean       Single Tree       0.4625         1.0000
+492.2s	193	Clean       Bagging (100)     0.9125         0.4029
+492.2s	194	Masked      Single Tree       0.4625         1.0000
+492.2s	195	Masked      Bagging (100)     0.7250         0.3047
+492.2s	196	
+492.2s	197	Two cases where bagging corrects the tree
+492.2s	198	
+492.2s	199	Test image position: 0
+492.2s	200	Original dataset image ID: 2
+492.2s	201	True identity: 0
+492.2s	202	Single-tree prediction: 7
+492.2s	203	Bagging prediction: 0
+492.2s	204	Bagging votes for tree prediction: 9
+492.2s	205	Bagging votes for true identity: 18
+492.2s	206	Bagging votes for bagging prediction: 18
+492.2s	207	
+492.2s	208	Test image position: 2
+492.2s	209	Original dataset image ID: 18
+492.2s	210	True identity: 1
+492.2s	211	Single-tree prediction: 15
+492.2s	212	Bagging prediction: 1
+492.2s	213	Bagging votes for tree prediction: 2
+492.2s	214	Bagging votes for true identity: 60
+492.2s	215	Bagging votes for bagging prediction: 60
+492.2s	216	
+492.2s	217	Two cases where both models are wrong
+492.2s	218	
+492.2s	219	Test image position: 25
+492.2s	220	Original dataset image ID: 125
+492.2s	221	True identity: 12
+492.2s	222	Single-tree prediction: 24
+492.2s	223	Bagging prediction: 1
+492.2s	224	Bagging votes for tree prediction: 1
+492.2s	225	Bagging votes for true identity: 6
+492.2s	226	Bagging votes for bagging prediction: 30
+492.2s	227	
+492.2s	228	Test image position: 29
+492.2s	229	Original dataset image ID: 145
+492.2s	230	True identity: 14
+492.2s	231	Single-tree prediction: 15
+492.2s	232	Bagging prediction: 3
+492.2s	233	Bagging votes for tree prediction: 5
+492.2s	234	Bagging votes for true identity: 20
+492.2s	235	Bagging votes for bagging prediction: 21
+492.6s	236	Initial sample weights:
+492.6s	237	[0.16666667 0.16666667 0.16666667 0.16666667 0.16666667 0.16666667]
+492.6s	238	
+492.6s	239	True labels:
+492.6s	240	[0 0 1 1 2 2]
+492.6s	241	
+492.6s	242	Predictions:
+492.6s	243	[0 0 1 1 1 1]
+492.6s	244	
+492.6s	245	Weighted error: 0.3333
+492.6s	246	Learner weight (alpha): 1.3863
+492.6s	247	
+492.6s	248	Updated normalized sample weights:
+492.6s	249	[0.0833 0.0833 0.0833 0.0833 0.3333 0.3333]
+492.6s	250	Sum of updated weights: 1.0
+494.4s	251	Number of boosting rounds completed: 10
+494.4s	252	Learner weights (alphas): [0.7191 0.7465 0.7753 0.8058 0.8381 0.8723 0.9087 0.9474 0.9887 1.033 ]
+529.4s	253	Depth: 1   Rounds: 10   Completed: 10   Validation accuracy: 0.0500
+533.8s	254	Depth: 1   Rounds: 25   Completed: 25   Validation accuracy: 0.0750
+542.1s	255	Depth: 1   Rounds: 50   Completed: 50   Validation accuracy: 0.1625
+558.6s	256	Depth: 1   Rounds: 100  Completed: 100  Validation accuracy: 0.1125
+561.9s	257	Depth: 2   Rounds: 10   Completed: 10   Validation accuracy: 0.0625
+570.1s	258	Depth: 2   Rounds: 25   Completed: 25   Validation accuracy: 0.0875
+586.4s	259	Depth: 2   Rounds: 50   Completed: 50   Validation accuracy: 0.2750
+619.8s	260	Depth: 2   Rounds: 100  Completed: 100  Validation accuracy: 0.2625
+624.9s	261	Depth: 3   Rounds: 10   Completed: 10   Validation accuracy: 0.1125
+637.2s	262	Depth: 3   Rounds: 25   Completed: 25   Validation accuracy: 0.2250
+661.8s	263	Depth: 3   Rounds: 50   Completed: 50   Validation accuracy: 0.2500
+711.1s	264	Depth: 3   Rounds: 100  Completed: 100  Validation accuracy: 0.3250
+717.8s	265	Depth: 4   Rounds: 10   Completed: 10   Validation accuracy: 0.1500
+734.2s	266	Depth: 4   Rounds: 25   Completed: 25   Validation accuracy: 0.3000
+767.0s	267	Depth: 4   Rounds: 50   Completed: 50   Validation accuracy: 0.4500
+832.0s	268	Depth: 4   Rounds: 100  Completed: 100  Validation accuracy: 0.4125
+832.0s	269	
+832.0s	270	Best depth: 4
+832.0s	271	Best requested rounds: 50
+832.0s	272	Actual rounds completed: 50
+832.0s	273	Best validation accuracy: 0.45
+1247.7s	274	Boosting requested: 25, learners completed: 25
+1280.9s	275	Boosting requested: 50, learners completed: 50
+1347.1s	276	Boosting requested: 100, learners completed: 100
+1347.1s	277	ACCURACY COMPARISON
+1347.1s	278	Model       Learners  Train Acc   Val Acc     Clean Test  Train Time(s)  
+1347.1s	279	Bagging     25        1.0000      0.8500      0.8375      56.3413        
+1347.1s	280	Boosting    25        0.4625      0.3000      0.1625      16.9855        
+1347.1s	281	Bagging     50        1.0000      0.8625      0.8375      112.4775       
+1347.3s	282	Boosting    50        0.9375      0.4500      0.3500      33.1404        
+1347.3s	283	Bagging     100       1.0000      0.8875      0.9000      228.8348       
+1347.6s	284	Boosting    100       0.9875      0.4125      0.4000      66.2356        
+1414.4s	285	DIFFICULT TRAINING FACE
+1414.4s	286	Training-set index: 71
+1414.4s	287	True identity: 11
+1414.4s	288	Initial weight: 0.004167
+1414.4s	289	Final weight: 0.067203
+1414.4s	290	Weight relative to initial: 16.13 times
+1414.4s	291	Predictions across rounds:
+1414.4s	292	[0, 1, 11, 3, 4, 25, 27, 16, 2, 3, 13, 11, 4, 12, 20, 2, 10, 24, 1, 30, 11, 15, 22, 12, 2, 39, 3, 4, 11, 12, 20, 25, 2, 3, 26, 4, 11, 12, 20, 2, 9, 3, 14, 4, 11, 16, 20, 39, 24, 3, 23, 0, 4, 11, 20, 39, 14, 3, 33, 4, 17, 11, 23, 14, 1, 3, 8, 16, 15, 11, 23, 14, 20, 1, 3, 2, 22, 11, 27, 20, 28, 3, 38, 4, 11, 12, 27, 14, 20, 3, 8, 4, 11, 12, 14, 39, 20, 3, 8, 4]
+1414.4s	293	Correctly predicted rounds: [3, 12, 21, 29, 37, 45, 54, 62, 70, 78, 85, 93]
+1414.4s	294	Correct rounds: 12 out of 100
+1414.4s	295	Incorrect rounds: 88
+1415.5s	296	Dataset   Model          Accuracy    Confidence  
+1415.5s	297	Clean     Single Tree    0.4625      1.0000      
+1415.5s	298	Clean     Bagging        0.9125      0.4029      
+1415.5s	299	Clean     Boosting       0.3500      0.1275      
+1415.5s	300	Masked    Single Tree    0.4625      1.0000      
+1415.5s	301	Masked    Bagging        0.7250      0.3047      
+1415.5s	302	Masked    Boosting       0.1750      0.1412      
+1415.6s	303	Selected tree: DecisionTreeClassifier(random_state=26005)
+1415.6s	304	Tree test accuracy: 0.4625
+1415.7s	305	Test-set index: 0
+1415.7s	306	True identity: 0
+1415.7s	307	Bagging: clean = 0 , masked = 26
+1415.7s	308	Boosting: clean = 2 , masked = 3
+1416.0s	309	Boosting learners: 50
+1416.0s	310	Boosting weights: 50
+1416.0s	311	Selected depth: 4
+1416.0s	312	Selected rounds: 50
+1653.6s	313	Completed repetition 1/30
+1881.2s	314	Completed repetition 2/30
+2110.6s	315	Completed repetition 3/30
+2342.2s	316	Completed repetition 4/30
+2572.6s	317	Completed repetition 5/30
+2798.5s	318	Completed repetition 6/30
+3032.7s	319	Completed repetition 7/30
+3269.0s	320	Completed repetition 8/30
+3492.4s	321	Completed repetition 9/30
+3723.4s	322	Completed repetition 10/30
+3964.5s	323	Completed repetition 11/30
+4199.8s	324	Completed repetition 12/30
+4435.0s	325	Completed repetition 13/30
+4669.7s	326	Completed repetition 14/30
+4905.1s	327	Completed repetition 15/30
+5133.0s	328	Completed repetition 16/30
+5366.7s	329	Completed repetition 17/30
+5607.5s	330	Completed repetition 18/30
+9.8s	331	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.8s	332	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.8s	333	0.00s - to python to disable frozen modules.
+9.8s	334	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.7s	335	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.7s	336	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.7s	337	0.00s - to python to disable frozen modules.
+10.7s	338	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+15.4s	339	downloading Olivetti faces from https://ndownloader.figshare.com/files/5976027 to /root/scikit_learn_data
+16.7s	340	(400, 4096)
+16.7s	341	(400,)
+16.7s	342	{'data': array([[0.30991736, 0.3677686 , 0.41735536, ..., 0.15289256, 0.16115703,
+16.7s	343	        0.1570248 ],
+16.7s	344	       [0.45454547, 0.47107437, 0.5123967 , ..., 0.15289256, 0.15289256,
+16.7s	345	        0.15289256],
+16.7s	346	       [0.3181818 , 0.40082645, 0.49173555, ..., 0.14049587, 0.14876033,
+16.7s	347	        0.15289256],
+16.7s	348	       ...,
+16.7s	349	       [0.5       , 0.53305787, 0.607438  , ..., 0.17768595, 0.14876033,
+16.7s	350	        0.19008264],
+16.7s	351	       [0.21487603, 0.21900827, 0.21900827, ..., 0.57438016, 0.59090906,
+16.7s	352	        0.60330576],
+16.7s	353	       [0.5165289 , 0.46280992, 0.28099173, ..., 0.35950413, 0.3553719 ,
+16.7s	354	        0.38429752]], dtype=float32), 'images': array([[[0.30991736, 0.3677686 , 0.41735536, ..., 0.37190083,
+16.7s	355	         0.3305785 , 0.30578512],
+16.7s	356	        [0.3429752 , 0.40495867, 0.43801653, ..., 0.37190083,
+16.7s	357	         0.338843  , 0.3140496 ],
+16.7s	358	        [0.3429752 , 0.41735536, 0.45041323, ..., 0.38016528,
+16.7s	359	         0.338843  , 0.29752067],
+16.7s	360	        ...,
+16.7s	361	        [0.21487603, 0.20661157, 0.2231405 , ..., 0.15289256,
+16.7s	362	         0.16528925, 0.17355372],
+16.7s	363	        [0.20247933, 0.2107438 , 0.2107438 , ..., 0.14876033,
+16.7s	364	         0.16115703, 0.16528925],
+16.7s	365	        [0.20247933, 0.20661157, 0.20247933, ..., 0.15289256,
+16.7s	366	         0.16115703, 0.1570248 ]],
+16.7s	367	
+16.7s	368	       [[0.45454547, 0.47107437, 0.5123967 , ..., 0.19008264,
+16.7s	369	         0.18595041, 0.18595041],
+16.7s	370	        [0.446281  , 0.48347107, 0.5206612 , ..., 0.21487603,
+16.7s	371	         0.2107438 , 0.2107438 ],
+16.7s	372	        [0.49586776, 0.5165289 , 0.53305787, ..., 0.20247933,
+16.7s	373	         0.20661157, 0.20661157],
+16.7s	374	        ...,
+16.7s	375	        [0.77272725, 0.78099173, 0.7933884 , ..., 0.1446281 ,
+16.7s	376	         0.1446281 , 0.1446281 ],
+16.7s	377	        [0.77272725, 0.7768595 , 0.7892562 , ..., 0.13636364,
+16.7s	378	         0.13636364, 0.13636364],
+16.7s	379	        [0.7644628 , 0.7892562 , 0.78099173, ..., 0.15289256,
+16.7s	380	         0.15289256, 0.15289256]],
+16.7s	381	
+16.7s	382	       [[0.3181818 , 0.40082645, 0.49173555, ..., 0.40082645,
+16.7s	383	         0.3553719 , 0.30991736],
+16.7s	384	        [0.30991736, 0.3966942 , 0.47933885, ..., 0.40495867,
+16.7s	385	         0.37603307, 0.30165288],
+16.7s	386	        [0.26859504, 0.34710744, 0.45454547, ..., 0.3966942 ,
+16.7s	387	         0.37190083, 0.30991736],
+16.7s	388	        ...,
+16.7s	389	        [0.1322314 , 0.09917355, 0.08264463, ..., 0.13636364,
+16.7s	390	         0.14876033, 0.15289256],
+16.7s	391	        [0.11570248, 0.09504132, 0.0785124 , ..., 0.1446281 ,
+16.7s	392	         0.1446281 , 0.1570248 ],
+16.7s	393	        [0.11157025, 0.09090909, 0.0785124 , ..., 0.14049587,
+16.7s	394	         0.14876033, 0.15289256]],
+16.7s	395	
+16.7s	396	       ...,
+16.7s	397	
+16.7s	398	       [[0.5       , 0.53305787, 0.607438  , ..., 0.28512397,
+16.7s	399	         0.23966943, 0.21487603],
+16.7s	400	        [0.49173555, 0.5413223 , 0.60330576, ..., 0.29752067,
+16.7s	401	         0.20247933, 0.20661157],
+16.7s	402	        [0.46694216, 0.55785125, 0.6198347 , ..., 0.29752067,
+16.7s	403	         0.17768595, 0.18595041],
+16.7s	404	        ...,
+16.7s	405	        [0.03305785, 0.46280992, 0.5289256 , ..., 0.17355372,
+16.7s	406	         0.17355372, 0.1694215 ],
+16.7s	407	        [0.1570248 , 0.5247934 , 0.53305787, ..., 0.16528925,
+16.7s	408	         0.1570248 , 0.18595041],
+16.7s	409	        [0.45454547, 0.5206612 , 0.53305787, ..., 0.17768595,
+16.7s	410	         0.14876033, 0.19008264]],
+16.7s	411	
+16.7s	412	       [[0.21487603, 0.21900827, 0.21900827, ..., 0.71487606,
+16.7s	413	         0.71487606, 0.6942149 ],
+16.7s	414	        [0.20247933, 0.20661157, 0.20661157, ..., 0.7107438 ,
+16.7s	415	         0.7066116 , 0.6942149 ],
+16.7s	416	        [0.2107438 , 0.20661157, 0.20661157, ..., 0.6859504 ,
+16.7s	417	         0.69008267, 0.6942149 ],
+16.7s	418	        ...,
+16.7s	419	        [0.2644628 , 0.25619835, 0.2603306 , ..., 0.5413223 ,
+16.7s	420	         0.57438016, 0.59090906],
+16.7s	421	        [0.26859504, 0.2644628 , 0.26859504, ..., 0.56198347,
+16.7s	422	         0.58264464, 0.59504133],
+16.7s	423	        [0.27272728, 0.26859504, 0.27272728, ..., 0.57438016,
+16.7s	424	         0.59090906, 0.60330576]],
+16.7s	425	
+16.7s	426	       [[0.5165289 , 0.46280992, 0.28099173, ..., 0.5785124 ,
+16.7s	427	         0.5413223 , 0.60330576],
+16.7s	428	        [0.5165289 , 0.45041323, 0.29338843, ..., 0.58264464,
+16.7s	429	         0.553719  , 0.5785124 ],
+16.7s	430	        [0.5165289 , 0.44214877, 0.29338843, ..., 0.59917355,
+16.7s	431	         0.5785124 , 0.54545456],
+16.7s	432	        ...,
+16.7s	433	        [0.39256197, 0.41322315, 0.38842976, ..., 0.33471075,
+16.7s	434	         0.37190083, 0.3966942 ],
+16.7s	435	        [0.39256197, 0.38429752, 0.40495867, ..., 0.3305785 ,
+16.7s	436	         0.35950413, 0.37603307],
+16.7s	437	        [0.3677686 , 0.40495867, 0.3966942 , ..., 0.35950413,
+16.7s	438	         0.3553719 , 0.38429752]]], dtype=float32), 'target': array([ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  1,  1,  1,  1,  1,
+16.7s	439	        1,  1,  1,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  3,
+16.7s	440	        3,  3,  3,  3,  3,  3,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  5,
+16.7s	441	        5,  5,  5,  5,  5,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,
+16.7s	442	        6,  6,  7,  7,  7,  7,  7,  7,  7,  7,  7,  7,  8,  8,  8,  8,  8,
+16.7s	443	        8,  8,  8,  8,  8,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9, 10, 10,
+16.7s	444	       10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11,
+16.7s	445	       11, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13,
+16.7s	446	       13, 13, 13, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 15, 15, 15,
+16.7s	447	       15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16,
+16.7s	448	       17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 18, 18,
+16.7s	449	       18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 20, 20, 20, 20,
+16.7s	450	       20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 22,
+16.7s	451	       22, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 23, 23,
+16.7s	452	       23, 23, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 25,
+16.7s	453	       25, 25, 25, 25, 25, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 27, 27,
+16.7s	454	       27, 27, 27, 27, 27, 27, 27, 27, 28, 28, 28, 28, 28, 28, 28, 28, 28,
+16.7s	455	       28, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 30, 30, 30, 30, 30, 30,
+16.7s	456	       30, 30, 30, 30, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 32, 32, 32,
+16.7s	457	       32, 32, 32, 32, 32, 32, 32, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33,
+16.7s	458	       34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 35, 35, 35, 35, 35, 35, 35,
+16.7s	459	       35, 35, 35, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 37, 37, 37, 37,
+16.7s	460	       37, 37, 37, 37, 37, 37, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 39,
+16.7s	461	       39, 39, 39, 39, 39, 39, 39, 39, 39]), 'DESCR': '.. _olivetti_faces_dataset:\n\nThe Olivetti faces dataset\n--------------------------\n\n`This dataset contains a set of face images`_ taken between April 1992 and\nApril 1994 at AT&T Laboratories Cambridge. The\n:func:`sklearn.datasets.fetch_olivetti_faces` function is the data\nfetching / caching function that downloads the data\narchive from AT&T.\n\n.. _This dataset contains a set of face images: https://cam-orl.co.uk/facedatabase.html\n\nAs described on the original website:\n\n    There are ten different images of each of 40 distinct subjects. For some\n    subjects, the images were taken at different times, varying the lighting,\n    facial expressions (open / closed eyes, smiling / not smiling) and facial\n    details (glasses / no glasses). All the images were taken against a dark\n    homogeneous background with the subjects in an upright, frontal position\n    (with tolerance for some side movement).\n\n**Data Set Characteristics:**\n\n=================   =====================\nClasses                                40\nSamples total                         400\nDimensionality                       4096\nFeatures            real, between 0 and 1\n=================   =====================\n\nThe image is quantized to 256 grey levels and stored as unsigned 8-bit\nintegers; the loader will convert these to floating point values on the\ninterval [0, 1], which are easier to work with for many algorithms.\n\nThe "target" for this database is an integer from 0 to 39 indicating the\nidentity of the person pictured; however, with only 10 examples per class, this\nrelatively small dataset is more interesting from an unsupervised or\nsemi-supervised perspective.\n\nThe original dataset consisted of 92 x 112, while the version available here\nconsists of 64x64 images.\n\nWhen using these images, please give credit to AT&T Laboratories Cambridge.\n'}
+16.7s	462	26005
+18.5s	463	Depth   Leaf Size   Train Accuracy    Validation Accuracy
+18.5s	464	2       1           0.0750            0.0625
+18.8s	465	2       2           0.0750            0.0625
+19.1s	466	2       4           0.0750            0.0625
+20.3s	467	8       1           0.2250            0.1875
+21.5s	468	8       2           0.2250            0.1875
+22.7s	469	8       4           0.2250            0.1875
+23.3s	470	4       1           0.1250            0.1125
+23.9s	471	4       2           0.1250            0.1125
+24.5s	472	4       4           0.1250            0.1125
+26.6s	473	16      1           0.4250            0.2750
+28.7s	474	16      2           0.4250            0.2750
+30.7s	475	16      4           0.4250            0.2750
+33.9s	476	None    1           1.0000            0.6125
+37.0s	477	None    2           0.9875            0.5875
+39.8s	478	None    4           0.9792            0.5750
+39.8s	479	Depth: None
+39.8s	480	Minimum leaf size: 1
+39.8s	481	Training accuracy: 1.0
+39.8s	482	Validation accuracy: 0.6125
+39.9s	483	Results/solution
+39.9s	484	
+39.9s	485	Depth: None
+39.9s	486	Minimum leaf size: 1
+39.9s	487	Training accuracy: 1.0
+39.9s	488	Validation accuracy: 0.6125
+39.9s	489	Test accuracy: 0.4625
+39.9s	490	Number of leaves: 46
+39.9s	491	Mean samples per leaf: 5.22
+39.9s	492	Fraction of leaves with one training image: 0.1304
+490.4s	493	B       Train Accuracy    Validation Accuracy   Test Accuracy     Distinct Images
+490.4s	494	1       0.7208            0.4000                0.3875            149.00
+490.4s	495	5       0.9750            0.6000                0.6750            152.20
+490.4s	496	10      0.9958            0.7250                0.7875            151.50
+490.4s	497	25      1.0000            0.8500                0.8875            152.24
+490.4s	498	50      1.0000            0.8750                0.9125            152.74
+490.4s	499	100     1.0000            0.9125                0.9125            152.43
+490.4s	500	200     1.0000            0.9125                0.8875            152.70
+490.4s	501	
+490.4s	502	Theoretical Expected distinct images: 151.89
+490.4s	503	
+490.4s	504	Comparison with observed values:
+490.4s	505	B       Observed    Expected              
+490.4s	506	1       149.00      151.8932
+490.4s	507	5       152.20      151.8932
+490.4s	508	10      151.50      151.8932
+490.4s	509	25      152.24      151.8932
+490.4s	510	50      152.74      151.8932
+490.4s	511	100     152.43      151.8932
+490.4s	512	200     152.70      151.8932
+490.6s	513	Graph
+491.4s	514	B       OOB Accuracy      Disagreement      Mean Vote Margin
+491.4s	515	1       0.2637            N/A               1.0000
+491.4s	516	5       0.3641            0.7250            0.2825
+491.4s	517	10      0.4008            0.7281            0.3112
+491.4s	518	25      0.5958            0.7477            0.3045
+491.4s	519	50      0.6708            0.7543            0.3065
+491.4s	520	100     0.7292            0.7633            0.3078
+491.4s	521	200     0.7792            0.7580            0.3163
+492.2s	522	Test Set    Model             Accuracy       Mean Confidence
+492.2s	523	Clean       Single Tree       0.4625         1.0000
+492.2s	524	Clean       Bagging (100)     0.9125         0.4029
+492.2s	525	Masked      Single Tree       0.4625         1.0000
+492.2s	526	Masked      Bagging (100)     0.7250         0.3047
+492.2s	527	
+492.2s	528	Two cases where bagging corrects the tree
+492.2s	529	
+492.2s	530	Test image position: 0
+492.2s	531	Original dataset image ID: 2
+492.2s	532	True identity: 0
+492.2s	533	Single-tree prediction: 7
+492.2s	534	Bagging prediction: 0
+492.2s	535	Bagging votes for tree prediction: 9
+492.2s	536	Bagging votes for true identity: 18
+492.2s	537	Bagging votes for bagging prediction: 18
+492.2s	538	
+492.2s	539	Test image position: 2
+492.2s	540	Original dataset image ID: 18
+492.2s	541	True identity: 1
+492.2s	542	Single-tree prediction: 15
+492.2s	543	Bagging prediction: 1
+492.2s	544	Bagging votes for tree prediction: 2
+492.2s	545	Bagging votes for true identity: 60
+492.2s	546	Bagging votes for bagging prediction: 60
+492.2s	547	
+492.2s	548	Two cases where both models are wrong
+492.2s	549	
+492.2s	550	Test image position: 25
+492.2s	551	Original dataset image ID: 125
+492.2s	552	True identity: 12
+492.2s	553	Single-tree prediction: 24
+492.2s	554	Bagging prediction: 1
+492.2s	555	Bagging votes for tree prediction: 1
+492.2s	556	Bagging votes for true identity: 6
+492.2s	557	Bagging votes for bagging prediction: 30
+492.2s	558	
+492.2s	559	Test image position: 29
+492.2s	560	Original dataset image ID: 145
+492.2s	561	True identity: 14
+492.2s	562	Single-tree prediction: 15
+492.2s	563	Bagging prediction: 3
+492.2s	564	Bagging votes for tree prediction: 5
+492.2s	565	Bagging votes for true identity: 20
+492.2s	566	Bagging votes for bagging prediction: 21
+492.6s	567	Initial sample weights:
+492.6s	568	[0.16666667 0.16666667 0.16666667 0.16666667 0.16666667 0.16666667]
+492.6s	569	
+492.6s	570	True labels:
+492.6s	571	[0 0 1 1 2 2]
+492.6s	572	
+492.6s	573	Predictions:
+492.6s	574	[0 0 1 1 1 1]
+492.6s	575	
+492.6s	576	Weighted error: 0.3333
+492.6s	577	Learner weight (alpha): 1.3863
+492.6s	578	
+492.6s	579	Updated normalized sample weights:
+492.6s	580	[0.0833 0.0833 0.0833 0.0833 0.3333 0.3333]
+492.6s	581	Sum of updated weights: 1.0
+494.4s	582	Number of boosting rounds completed: 10
+494.4s	583	Learner weights (alphas): [0.7191 0.7465 0.7753 0.8058 0.8381 0.8723 0.9087 0.9474 0.9887 1.033 ]
+529.4s	584	Depth: 1   Rounds: 10   Completed: 10   Validation accuracy: 0.0500
+533.8s	585	Depth: 1   Rounds: 25   Completed: 25   Validation accuracy: 0.0750
+542.1s	586	Depth: 1   Rounds: 50   Completed: 50   Validation accuracy: 0.1625
+558.6s	587	Depth: 1   Rounds: 100  Completed: 100  Validation accuracy: 0.1125
+561.9s	588	Depth: 2   Rounds: 10   Completed: 10   Validation accuracy: 0.0625
+570.1s	589	Depth: 2   Rounds: 25   Completed: 25   Validation accuracy: 0.0875
+586.4s	590	Depth: 2   Rounds: 50   Completed: 50   Validation accuracy: 0.2750
+619.8s	591	Depth: 2   Rounds: 100  Completed: 100  Validation accuracy: 0.2625
+624.9s	592	Depth: 3   Rounds: 10   Completed: 10   Validation accuracy: 0.1125
+637.2s	593	Depth: 3   Rounds: 25   Completed: 25   Validation accuracy: 0.2250
+661.8s	594	Depth: 3   Rounds: 50   Completed: 50   Validation accuracy: 0.2500
+711.1s	595	Depth: 3   Rounds: 100  Completed: 100  Validation accuracy: 0.3250
+717.8s	596	Depth: 4   Rounds: 10   Completed: 10   Validation accuracy: 0.1500
+734.2s	597	Depth: 4   Rounds: 25   Completed: 25   Validation accuracy: 0.3000
+767.0s	598	Depth: 4   Rounds: 50   Completed: 50   Validation accuracy: 0.4500
+832.0s	599	Depth: 4   Rounds: 100  Completed: 100  Validation accuracy: 0.4125
+832.0s	600	
+832.0s	601	Best depth: 4
+832.0s	602	Best requested rounds: 50
+832.0s	603	Actual rounds completed: 50
+832.0s	604	Best validation accuracy: 0.45
+1247.7s	605	Boosting requested: 25, learners completed: 25
+1280.9s	606	Boosting requested: 50, learners completed: 50
+1347.1s	607	Boosting requested: 100, learners completed: 100
+1347.1s	608	ACCURACY COMPARISON
+1347.1s	609	Model       Learners  Train Acc   Val Acc     Clean Test  Train Time(s)  
+1347.1s	610	Bagging     25        1.0000      0.8500      0.8375      56.3413        
+1347.1s	611	Boosting    25        0.4625      0.3000      0.1625      16.9855        
+1347.1s	612	Bagging     50        1.0000      0.8625      0.8375      112.4775       
+1347.3s	613	Boosting    50        0.9375      0.4500      0.3500      33.1404        
+1347.3s	614	Bagging     100       1.0000      0.8875      0.9000      228.8348       
+1347.6s	615	Boosting    100       0.9875      0.4125      0.4000      66.2356        
+1414.4s	616	DIFFICULT TRAINING FACE
+1414.4s	617	Training-set index: 71
+1414.4s	618	True identity: 11
+1414.4s	619	Initial weight: 0.004167
+1414.4s	620	Final weight: 0.067203
+1414.4s	621	Weight relative to initial: 16.13 times
+1414.4s	622	Predictions across rounds:
+1414.4s	623	[0, 1, 11, 3, 4, 25, 27, 16, 2, 3, 13, 11, 4, 12, 20, 2, 10, 24, 1, 30, 11, 15, 22, 12, 2, 39, 3, 4, 11, 12, 20, 25, 2, 3, 26, 4, 11, 12, 20, 2, 9, 3, 14, 4, 11, 16, 20, 39, 24, 3, 23, 0, 4, 11, 20, 39, 14, 3, 33, 4, 17, 11, 23, 14, 1, 3, 8, 16, 15, 11, 23, 14, 20, 1, 3, 2, 22, 11, 27, 20, 28, 3, 38, 4, 11, 12, 27, 14, 20, 3, 8, 4, 11, 12, 14, 39, 20, 3, 8, 4]
+1414.4s	624	Correctly predicted rounds: [3, 12, 21, 29, 37, 45, 54, 62, 70, 78, 85, 93]
+1414.4s	625	Correct rounds: 12 out of 100
+1414.4s	626	Incorrect rounds: 88
+1415.5s	627	Dataset   Model          Accuracy    Confidence  
+1415.5s	628	Clean     Single Tree    0.4625      1.0000      
+1415.5s	629	Clean     Bagging        0.9125      0.4029      
+1415.5s	630	Clean     Boosting       0.3500      0.1275      
+1415.5s	631	Masked    Single Tree    0.4625      1.0000      
+1415.5s	632	Masked    Bagging        0.7250      0.3047      
+1415.5s	633	Masked    Boosting       0.1750      0.1412      
+1415.6s	634	Selected tree: DecisionTreeClassifier(random_state=26005)
+1415.6s	635	Tree test accuracy: 0.4625
+1415.7s	636	Test-set index: 0
+1415.7s	637	True identity: 0
+1415.7s	638	Bagging: clean = 0 , masked = 26
+1415.7s	639	Boosting: clean = 2 , masked = 3
+1416.0s	640	Boosting learners: 50
+1416.0s	641	Boosting weights: 50
+1416.0s	642	Selected depth: 4
+1416.0s	643	Selected rounds: 50
+1653.6s	644	Completed repetition 1/30
+1881.2s	645	Completed repetition 2/30
+2110.6s	646	Completed repetition 3/30
+2342.2s	647	Completed repetition 4/30
+2572.6s	648	Completed repetition 5/30
+2798.5s	649	Completed repetition 6/30
+3032.7s	650	Completed repetition 7/30
+3269.0s	651	Completed repetition 8/30
+3492.4s	652	Completed repetition 9/30
+3723.4s	653	Completed repetition 10/30
+3964.5s	654	Completed repetition 11/30
+4199.8s	655	Completed repetition 12/30
+4435.0s	656	Completed repetition 13/30
+4669.7s	657	Completed repetition 14/30
+4905.1s	658	Completed repetition 15/30
+5133.0s	659	Completed repetition 16/30
+5366.7s	660	Completed repetition 17/30
+5607.5s	661	Completed repetition 18/30
+5841.4s	662	Completed repetition 19/30
+6068.3s	663	Completed repetition 20/30
+6296.2s	664	Completed repetition 21/30
+6528.1s	665	Completed repetition 22/30
+6767.2s	666	Completed repetition 23/30
+6997.3s	667	Completed repetition 24/30
+7229.2s	668	Completed repetition 25/30
+7466.2s	669	Completed repetition 26/30
+7695.8s	670	Completed repetition 27/30
+7928.5s	671	Completed repetition 28/30
+8161.6s	672	Completed repetition 29/30
+8405.6s	673	Completed repetition 30/30
+8405.6s	674	
+8405.6s	675	Total time: 116.49 minutes
+8405.6s	676	BIAS-VARIANCE AND TEST ACCURACY
+8405.6s	677	Model       Bias^2      Variance    Mean Acc    Std Acc     
+8405.6s	678	Single Tree 0.4243      0.6674      0.4542      0.0502      
+8405.6s	679	Bagging     0.1652      0.2748      0.7800      0.0320      
+8405.6s	680	Boosting    0.7676      0.7324      0.2500      0.0721      
+9.8s	681	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.8s	682	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.8s	683	0.00s - to python to disable frozen modules.
+9.8s	684	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.7s	685	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.7s	686	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.7s	687	0.00s - to python to disable frozen modules.
+10.7s	688	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+15.4s	689	downloading Olivetti faces from https://ndownloader.figshare.com/files/5976027 to /root/scikit_learn_data
+16.7s	690	(400, 4096)
+16.7s	691	(400,)
+16.7s	692	{'data': array([[0.30991736, 0.3677686 , 0.41735536, ..., 0.15289256, 0.16115703,
+16.7s	693	        0.1570248 ],
+16.7s	694	       [0.45454547, 0.47107437, 0.5123967 , ..., 0.15289256, 0.15289256,
+16.7s	695	        0.15289256],
+16.7s	696	       [0.3181818 , 0.40082645, 0.49173555, ..., 0.14049587, 0.14876033,
+16.7s	697	        0.15289256],
+16.7s	698	       ...,
+16.7s	699	       [0.5       , 0.53305787, 0.607438  , ..., 0.17768595, 0.14876033,
+16.7s	700	        0.19008264],
+16.7s	701	       [0.21487603, 0.21900827, 0.21900827, ..., 0.57438016, 0.59090906,
+16.7s	702	        0.60330576],
+16.7s	703	       [0.5165289 , 0.46280992, 0.28099173, ..., 0.35950413, 0.3553719 ,
+16.7s	704	        0.38429752]], dtype=float32), 'images': array([[[0.30991736, 0.3677686 , 0.41735536, ..., 0.37190083,
+16.7s	705	         0.3305785 , 0.30578512],
+16.7s	706	        [0.3429752 , 0.40495867, 0.43801653, ..., 0.37190083,
+16.7s	707	         0.338843  , 0.3140496 ],
+16.7s	708	        [0.3429752 , 0.41735536, 0.45041323, ..., 0.38016528,
+16.7s	709	         0.338843  , 0.29752067],
+16.7s	710	        ...,
+16.7s	711	        [0.21487603, 0.20661157, 0.2231405 , ..., 0.15289256,
+16.7s	712	         0.16528925, 0.17355372],
+16.7s	713	        [0.20247933, 0.2107438 , 0.2107438 , ..., 0.14876033,
+16.7s	714	         0.16115703, 0.16528925],
+16.7s	715	        [0.20247933, 0.20661157, 0.20247933, ..., 0.15289256,
+16.7s	716	         0.16115703, 0.1570248 ]],
+16.7s	717	
+16.7s	718	       [[0.45454547, 0.47107437, 0.5123967 , ..., 0.19008264,
+16.7s	719	         0.18595041, 0.18595041],
+16.7s	720	        [0.446281  , 0.48347107, 0.5206612 , ..., 0.21487603,
+16.7s	721	         0.2107438 , 0.2107438 ],
+16.7s	722	        [0.49586776, 0.5165289 , 0.53305787, ..., 0.20247933,
+16.7s	723	         0.20661157, 0.20661157],
+16.7s	724	        ...,
+16.7s	725	        [0.77272725, 0.78099173, 0.7933884 , ..., 0.1446281 ,
+16.7s	726	         0.1446281 , 0.1446281 ],
+16.7s	727	        [0.77272725, 0.7768595 , 0.7892562 , ..., 0.13636364,
+16.7s	728	         0.13636364, 0.13636364],
+16.7s	729	        [0.7644628 , 0.7892562 , 0.78099173, ..., 0.15289256,
+16.7s	730	         0.15289256, 0.15289256]],
+16.7s	731	
+16.7s	732	       [[0.3181818 , 0.40082645, 0.49173555, ..., 0.40082645,
+16.7s	733	         0.3553719 , 0.30991736],
+16.7s	734	        [0.30991736, 0.3966942 , 0.47933885, ..., 0.40495867,
+16.7s	735	         0.37603307, 0.30165288],
+16.7s	736	        [0.26859504, 0.34710744, 0.45454547, ..., 0.3966942 ,
+16.7s	737	         0.37190083, 0.30991736],
+16.7s	738	        ...,
+16.7s	739	        [0.1322314 , 0.09917355, 0.08264463, ..., 0.13636364,
+16.7s	740	         0.14876033, 0.15289256],
+16.7s	741	        [0.11570248, 0.09504132, 0.0785124 , ..., 0.1446281 ,
+16.7s	742	         0.1446281 , 0.1570248 ],
+16.7s	743	        [0.11157025, 0.09090909, 0.0785124 , ..., 0.14049587,
+16.7s	744	         0.14876033, 0.15289256]],
+16.7s	745	
+16.7s	746	       ...,
+16.7s	747	
+16.7s	748	       [[0.5       , 0.53305787, 0.607438  , ..., 0.28512397,
+16.7s	749	         0.23966943, 0.21487603],
+16.7s	750	        [0.49173555, 0.5413223 , 0.60330576, ..., 0.29752067,
+16.7s	751	         0.20247933, 0.20661157],
+16.7s	752	        [0.46694216, 0.55785125, 0.6198347 , ..., 0.29752067,
+16.7s	753	         0.17768595, 0.18595041],
+16.7s	754	        ...,
+16.7s	755	        [0.03305785, 0.46280992, 0.5289256 , ..., 0.17355372,
+16.7s	756	         0.17355372, 0.1694215 ],
+16.7s	757	        [0.1570248 , 0.5247934 , 0.53305787, ..., 0.16528925,
+16.7s	758	         0.1570248 , 0.18595041],
+16.7s	759	        [0.45454547, 0.5206612 , 0.53305787, ..., 0.17768595,
+16.7s	760	         0.14876033, 0.19008264]],
+16.7s	761	
+16.7s	762	       [[0.21487603, 0.21900827, 0.21900827, ..., 0.71487606,
+16.7s	763	         0.71487606, 0.6942149 ],
+16.7s	764	        [0.20247933, 0.20661157, 0.20661157, ..., 0.7107438 ,
+16.7s	765	         0.7066116 , 0.6942149 ],
+16.7s	766	        [0.2107438 , 0.20661157, 0.20661157, ..., 0.6859504 ,
+16.7s	767	         0.69008267, 0.6942149 ],
+16.7s	768	        ...,
+16.7s	769	        [0.2644628 , 0.25619835, 0.2603306 , ..., 0.5413223 ,
+16.7s	770	         0.57438016, 0.59090906],
+16.7s	771	        [0.26859504, 0.2644628 , 0.26859504, ..., 0.56198347,
+16.7s	772	         0.58264464, 0.59504133],
+16.7s	773	        [0.27272728, 0.26859504, 0.27272728, ..., 0.57438016,
+16.7s	774	         0.59090906, 0.60330576]],
+16.7s	775	
+16.7s	776	       [[0.5165289 , 0.46280992, 0.28099173, ..., 0.5785124 ,
+16.7s	777	         0.5413223 , 0.60330576],
+16.7s	778	        [0.5165289 , 0.45041323, 0.29338843, ..., 0.58264464,
+16.7s	779	         0.553719  , 0.5785124 ],
+16.7s	780	        [0.5165289 , 0.44214877, 0.29338843, ..., 0.59917355,
+16.7s	781	         0.5785124 , 0.54545456],
+16.7s	782	        ...,
+16.7s	783	        [0.39256197, 0.41322315, 0.38842976, ..., 0.33471075,
+16.7s	784	         0.37190083, 0.3966942 ],
+16.7s	785	        [0.39256197, 0.38429752, 0.40495867, ..., 0.3305785 ,
+16.7s	786	         0.35950413, 0.37603307],
+16.7s	787	        [0.3677686 , 0.40495867, 0.3966942 , ..., 0.35950413,
+16.7s	788	         0.3553719 , 0.38429752]]], dtype=float32), 'target': array([ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  1,  1,  1,  1,  1,
+16.7s	789	        1,  1,  1,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  3,
+16.7s	790	        3,  3,  3,  3,  3,  3,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  5,
+16.7s	791	        5,  5,  5,  5,  5,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,
+16.7s	792	        6,  6,  7,  7,  7,  7,  7,  7,  7,  7,  7,  7,  8,  8,  8,  8,  8,
+16.7s	793	        8,  8,  8,  8,  8,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9, 10, 10,
+16.7s	794	       10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11,
+16.7s	795	       11, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13,
+16.7s	796	       13, 13, 13, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 15, 15, 15,
+16.7s	797	       15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16,
+16.7s	798	       17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 18, 18,
+16.7s	799	       18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 20, 20, 20, 20,
+16.7s	800	       20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 22,
+16.7s	801	       22, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 23, 23,
+16.7s	802	       23, 23, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 25,
+16.7s	803	       25, 25, 25, 25, 25, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 27, 27,
+16.7s	804	       27, 27, 27, 27, 27, 27, 27, 27, 28, 28, 28, 28, 28, 28, 28, 28, 28,
+16.7s	805	       28, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 30, 30, 30, 30, 30, 30,
+16.7s	806	       30, 30, 30, 30, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 32, 32, 32,
+16.7s	807	       32, 32, 32, 32, 32, 32, 32, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33,
+16.7s	808	       34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 35, 35, 35, 35, 35, 35, 35,
+16.7s	809	       35, 35, 35, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 37, 37, 37, 37,
+16.7s	810	       37, 37, 37, 37, 37, 37, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 39,
+16.7s	811	       39, 39, 39, 39, 39, 39, 39, 39, 39]), 'DESCR': '.. _olivetti_faces_dataset:\n\nThe Olivetti faces dataset\n--------------------------\n\n`This dataset contains a set of face images`_ taken between April 1992 and\nApril 1994 at AT&T Laboratories Cambridge. The\n:func:`sklearn.datasets.fetch_olivetti_faces` function is the data\nfetching / caching function that downloads the data\narchive from AT&T.\n\n.. _This dataset contains a set of face images: https://cam-orl.co.uk/facedatabase.html\n\nAs described on the original website:\n\n    There are ten different images of each of 40 distinct subjects. For some\n    subjects, the images were taken at different times, varying the lighting,\n    facial expressions (open / closed eyes, smiling / not smiling) and facial\n    details (glasses / no glasses). All the images were taken against a dark\n    homogeneous background with the subjects in an upright, frontal position\n    (with tolerance for some side movement).\n\n**Data Set Characteristics:**\n\n=================   =====================\nClasses                                40\nSamples total                         400\nDimensionality                       4096\nFeatures            real, between 0 and 1\n=================   =====================\n\nThe image is quantized to 256 grey levels and stored as unsigned 8-bit\nintegers; the loader will convert these to floating point values on the\ninterval [0, 1], which are easier to work with for many algorithms.\n\nThe "target" for this database is an integer from 0 to 39 indicating the\nidentity of the person pictured; however, with only 10 examples per class, this\nrelatively small dataset is more interesting from an unsupervised or\nsemi-supervised perspective.\n\nThe original dataset consisted of 92 x 112, while the version available here\nconsists of 64x64 images.\n\nWhen using these images, please give credit to AT&T Laboratories Cambridge.\n'}
+16.7s	812	26005
+18.5s	813	Depth   Leaf Size   Train Accuracy    Validation Accuracy
+18.5s	814	2       1           0.0750            0.0625
+18.8s	815	2       2           0.0750            0.0625
+19.1s	816	2       4           0.0750            0.0625
+20.3s	817	8       1           0.2250            0.1875
+21.5s	818	8       2           0.2250            0.1875
+22.7s	819	8       4           0.2250            0.1875
+23.3s	820	4       1           0.1250            0.1125
+23.9s	821	4       2           0.1250            0.1125
+24.5s	822	4       4           0.1250            0.1125
+26.6s	823	16      1           0.4250            0.2750
+28.7s	824	16      2           0.4250            0.2750
+30.7s	825	16      4           0.4250            0.2750
+33.9s	826	None    1           1.0000            0.6125
+37.0s	827	None    2           0.9875            0.5875
+39.8s	828	None    4           0.9792            0.5750
+39.8s	829	Depth: None
+39.8s	830	Minimum leaf size: 1
+39.8s	831	Training accuracy: 1.0
+39.8s	832	Validation accuracy: 0.6125
+39.9s	833	Results/solution
+39.9s	834	
+39.9s	835	Depth: None
+39.9s	836	Minimum leaf size: 1
+39.9s	837	Training accuracy: 1.0
+39.9s	838	Validation accuracy: 0.6125
+39.9s	839	Test accuracy: 0.4625
+39.9s	840	Number of leaves: 46
+39.9s	841	Mean samples per leaf: 5.22
+39.9s	842	Fraction of leaves with one training image: 0.1304
+490.4s	843	B       Train Accuracy    Validation Accuracy   Test Accuracy     Distinct Images
+490.4s	844	1       0.7208            0.4000                0.3875            149.00
+490.4s	845	5       0.9750            0.6000                0.6750            152.20
+490.4s	846	10      0.9958            0.7250                0.7875            151.50
+490.4s	847	25      1.0000            0.8500                0.8875            152.24
+490.4s	848	50      1.0000            0.8750                0.9125            152.74
+490.4s	849	100     1.0000            0.9125                0.9125            152.43
+490.4s	850	200     1.0000            0.9125                0.8875            152.70
+490.4s	851	
+490.4s	852	Theoretical Expected distinct images: 151.89
+490.4s	853	
+490.4s	854	Comparison with observed values:
+490.4s	855	B       Observed    Expected              
+490.4s	856	1       149.00      151.8932
+490.4s	857	5       152.20      151.8932
+490.4s	858	10      151.50      151.8932
+490.4s	859	25      152.24      151.8932
+490.4s	860	50      152.74      151.8932
+490.4s	861	100     152.43      151.8932
+490.4s	862	200     152.70      151.8932
+490.6s	863	Graph
+491.4s	864	B       OOB Accuracy      Disagreement      Mean Vote Margin
+491.4s	865	1       0.2637            N/A               1.0000
+491.4s	866	5       0.3641            0.7250            0.2825
+491.4s	867	10      0.4008            0.7281            0.3112
+491.4s	868	25      0.5958            0.7477            0.3045
+491.4s	869	50      0.6708            0.7543            0.3065
+491.4s	870	100     0.7292            0.7633            0.3078
+491.4s	871	200     0.7792            0.7580            0.3163
+492.2s	872	Test Set    Model             Accuracy       Mean Confidence
+492.2s	873	Clean       Single Tree       0.4625         1.0000
+492.2s	874	Clean       Bagging (100)     0.9125         0.4029
+492.2s	875	Masked      Single Tree       0.4625         1.0000
+492.2s	876	Masked      Bagging (100)     0.7250         0.3047
+492.2s	877	
+492.2s	878	Two cases where bagging corrects the tree
+492.2s	879	
+492.2s	880	Test image position: 0
+492.2s	881	Original dataset image ID: 2
+492.2s	882	True identity: 0
+492.2s	883	Single-tree prediction: 7
+492.2s	884	Bagging prediction: 0
+492.2s	885	Bagging votes for tree prediction: 9
+492.2s	886	Bagging votes for true identity: 18
+492.2s	887	Bagging votes for bagging prediction: 18
+492.2s	888	
+492.2s	889	Test image position: 2
+492.2s	890	Original dataset image ID: 18
+492.2s	891	True identity: 1
+492.2s	892	Single-tree prediction: 15
+492.2s	893	Bagging prediction: 1
+492.2s	894	Bagging votes for tree prediction: 2
+492.2s	895	Bagging votes for true identity: 60
+492.2s	896	Bagging votes for bagging prediction: 60
+492.2s	897	
+492.2s	898	Two cases where both models are wrong
+492.2s	899	
+492.2s	900	Test image position: 25
+492.2s	901	Original dataset image ID: 125
+492.2s	902	True identity: 12
+492.2s	903	Single-tree prediction: 24
+492.2s	904	Bagging prediction: 1
+492.2s	905	Bagging votes for tree prediction: 1
+492.2s	906	Bagging votes for true identity: 6
+492.2s	907	Bagging votes for bagging prediction: 30
+492.2s	908	
+492.2s	909	Test image position: 29
+492.2s	910	Original dataset image ID: 145
+492.2s	911	True identity: 14
+492.2s	912	Single-tree prediction: 15
+492.2s	913	Bagging prediction: 3
+492.2s	914	Bagging votes for tree prediction: 5
+492.2s	915	Bagging votes for true identity: 20
+492.2s	916	Bagging votes for bagging prediction: 21
+492.6s	917	Initial sample weights:
+492.6s	918	[0.16666667 0.16666667 0.16666667 0.16666667 0.16666667 0.16666667]
+492.6s	919	
+492.6s	920	True labels:
+492.6s	921	[0 0 1 1 2 2]
+492.6s	922	
+492.6s	923	Predictions:
+492.6s	924	[0 0 1 1 1 1]
+492.6s	925	
+492.6s	926	Weighted error: 0.3333
+492.6s	927	Learner weight (alpha): 1.3863
+492.6s	928	
+492.6s	929	Updated normalized sample weights:
+492.6s	930	[0.0833 0.0833 0.0833 0.0833 0.3333 0.3333]
+492.6s	931	Sum of updated weights: 1.0
+494.4s	932	Number of boosting rounds completed: 10
+494.4s	933	Learner weights (alphas): [0.7191 0.7465 0.7753 0.8058 0.8381 0.8723 0.9087 0.9474 0.9887 1.033 ]
+529.4s	934	Depth: 1   Rounds: 10   Completed: 10   Validation accuracy: 0.0500
+533.8s	935	Depth: 1   Rounds: 25   Completed: 25   Validation accuracy: 0.0750
+542.1s	936	Depth: 1   Rounds: 50   Completed: 50   Validation accuracy: 0.1625
+558.6s	937	Depth: 1   Rounds: 100  Completed: 100  Validation accuracy: 0.1125
+561.9s	938	Depth: 2   Rounds: 10   Completed: 10   Validation accuracy: 0.0625
+570.1s	939	Depth: 2   Rounds: 25   Completed: 25   Validation accuracy: 0.0875
+586.4s	940	Depth: 2   Rounds: 50   Completed: 50   Validation accuracy: 0.2750
+619.8s	941	Depth: 2   Rounds: 100  Completed: 100  Validation accuracy: 0.2625
+624.9s	942	Depth: 3   Rounds: 10   Completed: 10   Validation accuracy: 0.1125
+637.2s	943	Depth: 3   Rounds: 25   Completed: 25   Validation accuracy: 0.2250
+661.8s	944	Depth: 3   Rounds: 50   Completed: 50   Validation accuracy: 0.2500
+711.1s	945	Depth: 3   Rounds: 100  Completed: 100  Validation accuracy: 0.3250
+717.8s	946	Depth: 4   Rounds: 10   Completed: 10   Validation accuracy: 0.1500
+734.2s	947	Depth: 4   Rounds: 25   Completed: 25   Validation accuracy: 0.3000
+767.0s	948	Depth: 4   Rounds: 50   Completed: 50   Validation accuracy: 0.4500
+832.0s	949	Depth: 4   Rounds: 100  Completed: 100  Validation accuracy: 0.4125
+832.0s	950	
+832.0s	951	Best depth: 4
+832.0s	952	Best requested rounds: 50
+832.0s	953	Actual rounds completed: 50
+832.0s	954	Best validation accuracy: 0.45
+1247.7s	955	Boosting requested: 25, learners completed: 25
+1280.9s	956	Boosting requested: 50, learners completed: 50
+1347.1s	957	Boosting requested: 100, learners completed: 100
+1347.1s	958	ACCURACY COMPARISON
+1347.1s	959	Model       Learners  Train Acc   Val Acc     Clean Test  Train Time(s)  
+1347.1s	960	Bagging     25        1.0000      0.8500      0.8375      56.3413        
+1347.1s	961	Boosting    25        0.4625      0.3000      0.1625      16.9855        
+1347.1s	962	Bagging     50        1.0000      0.8625      0.8375      112.4775       
+1347.3s	963	Boosting    50        0.9375      0.4500      0.3500      33.1404        
+1347.3s	964	Bagging     100       1.0000      0.8875      0.9000      228.8348       
+1347.6s	965	Boosting    100       0.9875      0.4125      0.4000      66.2356        
+1414.4s	966	DIFFICULT TRAINING FACE
+1414.4s	967	Training-set index: 71
+1414.4s	968	True identity: 11
+1414.4s	969	Initial weight: 0.004167
+1414.4s	970	Final weight: 0.067203
+1414.4s	971	Weight relative to initial: 16.13 times
+1414.4s	972	Predictions across rounds:
+1414.4s	973	[0, 1, 11, 3, 4, 25, 27, 16, 2, 3, 13, 11, 4, 12, 20, 2, 10, 24, 1, 30, 11, 15, 22, 12, 2, 39, 3, 4, 11, 12, 20, 25, 2, 3, 26, 4, 11, 12, 20, 2, 9, 3, 14, 4, 11, 16, 20, 39, 24, 3, 23, 0, 4, 11, 20, 39, 14, 3, 33, 4, 17, 11, 23, 14, 1, 3, 8, 16, 15, 11, 23, 14, 20, 1, 3, 2, 22, 11, 27, 20, 28, 3, 38, 4, 11, 12, 27, 14, 20, 3, 8, 4, 11, 12, 14, 39, 20, 3, 8, 4]
+1414.4s	974	Correctly predicted rounds: [3, 12, 21, 29, 37, 45, 54, 62, 70, 78, 85, 93]
+1414.4s	975	Correct rounds: 12 out of 100
+1414.4s	976	Incorrect rounds: 88
+1415.5s	977	Dataset   Model          Accuracy    Confidence  
+1415.5s	978	Clean     Single Tree    0.4625      1.0000      
+1415.5s	979	Clean     Bagging        0.9125      0.4029      
+1415.5s	980	Clean     Boosting       0.3500      0.1275      
+1415.5s	981	Masked    Single Tree    0.4625      1.0000      
+1415.5s	982	Masked    Bagging        0.7250      0.3047      
+1415.5s	983	Masked    Boosting       0.1750      0.1412      
+1415.6s	984	Selected tree: DecisionTreeClassifier(random_state=26005)
+1415.6s	985	Tree test accuracy: 0.4625
+1415.7s	986	Test-set index: 0
+1415.7s	987	True identity: 0
+1415.7s	988	Bagging: clean = 0 , masked = 26
+1415.7s	989	Boosting: clean = 2 , masked = 3
+1416.0s	990	Boosting learners: 50
+1416.0s	991	Boosting weights: 50
+1416.0s	992	Selected depth: 4
+1416.0s	993	Selected rounds: 50
+1653.6s	994	Completed repetition 1/30
+1881.2s	995	Completed repetition 2/30
+2110.6s	996	Completed repetition 3/30
+2342.2s	997	Completed repetition 4/30
+2572.6s	998	Completed repetition 5/30
+2798.5s	999	Completed repetition 6/30
+3032.7s	1000	Completed repetition 7/30
+3269.0s	1001	Completed repetition 8/30
+3492.4s	1002	Completed repetition 9/30
+3723.4s	1003	Completed repetition 10/30
+3964.5s	1004	Completed repetition 11/30
+4199.8s	1005	Completed repetition 12/30
+4435.0s	1006	Completed repetition 13/30
+4669.7s	1007	Completed repetition 14/30
+4905.1s	1008	Completed repetition 15/30
+5133.0s	1009	Completed repetition 16/30
+5366.7s	1010	Completed repetition 17/30
+5607.5s	1011	Completed repetition 18/30
+5841.4s	1012	Completed repetition 19/30
+6068.3s	1013	Completed repetition 20/30
+6296.2s	1014	Completed repetition 21/30
+6528.1s	1015	Completed repetition 22/30
+6767.2s	1016	Completed repetition 23/30
+6997.3s	1017	Completed repetition 24/30
+7229.2s	1018	Completed repetition 25/30
+7466.2s	1019	Completed repetition 26/30
+7695.8s	1020	Completed repetition 27/30
+7928.5s	1021	Completed repetition 28/30
+8161.6s	1022	Completed repetition 29/30
+8405.6s	1023	Completed repetition 30/30
+8405.6s	1024	
+8405.6s	1025	Total time: 116.49 minutes
+8405.6s	1026	BIAS-VARIANCE AND TEST ACCURACY
+8405.6s	1027	Model       Bias^2      Variance    Mean Acc    Std Acc     
+8405.6s	1028	Single Tree 0.4243      0.6674      0.4542      0.0502      
+8405.6s	1029	Bagging     0.1652      0.2748      0.7800      0.0320      
+8405.6s	1030	Boosting    0.7676      0.7324      0.2500      0.0721      
+9.8s	1031	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.8s	1032	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.8s	1033	0.00s - to python to disable frozen modules.
+9.8s	1034	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.7s	1035	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.7s	1036	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.7s	1037	0.00s - to python to disable frozen modules.
+10.7s	1038	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+15.4s	1039	downloading Olivetti faces from https://ndownloader.figshare.com/files/5976027 to /root/scikit_learn_data
+16.7s	1040	(400, 4096)
+16.7s	1041	(400,)
+16.7s	1042	{'data': array([[0.30991736, 0.3677686 , 0.41735536, ..., 0.15289256, 0.16115703,
+16.7s	1043	        0.1570248 ],
+16.7s	1044	       [0.45454547, 0.47107437, 0.5123967 , ..., 0.15289256, 0.15289256,
+16.7s	1045	        0.15289256],
+16.7s	1046	       [0.3181818 , 0.40082645, 0.49173555, ..., 0.14049587, 0.14876033,
+16.7s	1047	        0.15289256],
+16.7s	1048	       ...,
+16.7s	1049	       [0.5       , 0.53305787, 0.607438  , ..., 0.17768595, 0.14876033,
+16.7s	1050	        0.19008264],
+16.7s	1051	       [0.21487603, 0.21900827, 0.21900827, ..., 0.57438016, 0.59090906,
+16.7s	1052	        0.60330576],
+16.7s	1053	       [0.5165289 , 0.46280992, 0.28099173, ..., 0.35950413, 0.3553719 ,
+16.7s	1054	        0.38429752]], dtype=float32), 'images': array([[[0.30991736, 0.3677686 , 0.41735536, ..., 0.37190083,
+16.7s	1055	         0.3305785 , 0.30578512],
+16.7s	1056	        [0.3429752 , 0.40495867, 0.43801653, ..., 0.37190083,
+16.7s	1057	         0.338843  , 0.3140496 ],
+16.7s	1058	        [0.3429752 , 0.41735536, 0.45041323, ..., 0.38016528,
+16.7s	1059	         0.338843  , 0.29752067],
+16.7s	1060	        ...,
+16.7s	1061	        [0.21487603, 0.20661157, 0.2231405 , ..., 0.15289256,
+16.7s	1062	         0.16528925, 0.17355372],
+16.7s	1063	        [0.20247933, 0.2107438 , 0.2107438 , ..., 0.14876033,
+16.7s	1064	         0.16115703, 0.16528925],
+16.7s	1065	        [0.20247933, 0.20661157, 0.20247933, ..., 0.15289256,
+16.7s	1066	         0.16115703, 0.1570248 ]],
+16.7s	1067	
+16.7s	1068	       [[0.45454547, 0.47107437, 0.5123967 , ..., 0.19008264,
+16.7s	1069	         0.18595041, 0.18595041],
+16.7s	1070	        [0.446281  , 0.48347107, 0.5206612 , ..., 0.21487603,
+16.7s	1071	         0.2107438 , 0.2107438 ],
+16.7s	1072	        [0.49586776, 0.5165289 , 0.53305787, ..., 0.20247933,
+16.7s	1073	         0.20661157, 0.20661157],
+16.7s	1074	        ...,
+16.7s	1075	        [0.77272725, 0.78099173, 0.7933884 , ..., 0.1446281 ,
+16.7s	1076	         0.1446281 , 0.1446281 ],
+16.7s	1077	        [0.77272725, 0.7768595 , 0.7892562 , ..., 0.13636364,
+16.7s	1078	         0.13636364, 0.13636364],
+16.7s	1079	        [0.7644628 , 0.7892562 , 0.78099173, ..., 0.15289256,
+16.7s	1080	         0.15289256, 0.15289256]],
+16.7s	1081	
+16.7s	1082	       [[0.3181818 , 0.40082645, 0.49173555, ..., 0.40082645,
+16.7s	1083	         0.3553719 , 0.30991736],
+16.7s	1084	        [0.30991736, 0.3966942 , 0.47933885, ..., 0.40495867,
+16.7s	1085	         0.37603307, 0.30165288],
+16.7s	1086	        [0.26859504, 0.34710744, 0.45454547, ..., 0.3966942 ,
+16.7s	1087	         0.37190083, 0.30991736],
+16.7s	1088	        ...,
+16.7s	1089	        [0.1322314 , 0.09917355, 0.08264463, ..., 0.13636364,
+16.7s	1090	         0.14876033, 0.15289256],
+16.7s	1091	        [0.11570248, 0.09504132, 0.0785124 , ..., 0.1446281 ,
+16.7s	1092	         0.1446281 , 0.1570248 ],
+16.7s	1093	        [0.11157025, 0.09090909, 0.0785124 , ..., 0.14049587,
+16.7s	1094	         0.14876033, 0.15289256]],
+16.7s	1095	
+16.7s	1096	       ...,
+16.7s	1097	
+16.7s	1098	       [[0.5       , 0.53305787, 0.607438  , ..., 0.28512397,
+16.7s	1099	         0.23966943, 0.21487603],
+16.7s	1100	        [0.49173555, 0.5413223 , 0.60330576, ..., 0.29752067,
+16.7s	1101	         0.20247933, 0.20661157],
+16.7s	1102	        [0.46694216, 0.55785125, 0.6198347 , ..., 0.29752067,
+16.7s	1103	         0.17768595, 0.18595041],
+16.7s	1104	        ...,
+16.7s	1105	        [0.03305785, 0.46280992, 0.5289256 , ..., 0.17355372,
+16.7s	1106	         0.17355372, 0.1694215 ],
+16.7s	1107	        [0.1570248 , 0.5247934 , 0.53305787, ..., 0.16528925,
+16.7s	1108	         0.1570248 , 0.18595041],
+16.7s	1109	        [0.45454547, 0.5206612 , 0.53305787, ..., 0.17768595,
+16.7s	1110	         0.14876033, 0.19008264]],
+16.7s	1111	
+16.7s	1112	       [[0.21487603, 0.21900827, 0.21900827, ..., 0.71487606,
+16.7s	1113	         0.71487606, 0.6942149 ],
+16.7s	1114	        [0.20247933, 0.20661157, 0.20661157, ..., 0.7107438 ,
+16.7s	1115	         0.7066116 , 0.6942149 ],
+16.7s	1116	        [0.2107438 , 0.20661157, 0.20661157, ..., 0.6859504 ,
+16.7s	1117	         0.69008267, 0.6942149 ],
+16.7s	1118	        ...,
+16.7s	1119	        [0.2644628 , 0.25619835, 0.2603306 , ..., 0.5413223 ,
+16.7s	1120	         0.57438016, 0.59090906],
+16.7s	1121	        [0.26859504, 0.2644628 , 0.26859504, ..., 0.56198347,
+16.7s	1122	         0.58264464, 0.59504133],
+16.7s	1123	        [0.27272728, 0.26859504, 0.27272728, ..., 0.57438016,
+16.7s	1124	         0.59090906, 0.60330576]],
+16.7s	1125	
+16.7s	1126	       [[0.5165289 , 0.46280992, 0.28099173, ..., 0.5785124 ,
+16.7s	1127	         0.5413223 , 0.60330576],
+16.7s	1128	        [0.5165289 , 0.45041323, 0.29338843, ..., 0.58264464,
+16.7s	1129	         0.553719  , 0.5785124 ],
+16.7s	1130	        [0.5165289 , 0.44214877, 0.29338843, ..., 0.59917355,
+16.7s	1131	         0.5785124 , 0.54545456],
+16.7s	1132	        ...,
+16.7s	1133	        [0.39256197, 0.41322315, 0.38842976, ..., 0.33471075,
+16.7s	1134	         0.37190083, 0.3966942 ],
+16.7s	1135	        [0.39256197, 0.38429752, 0.40495867, ..., 0.3305785 ,
+16.7s	1136	         0.35950413, 0.37603307],
+16.7s	1137	        [0.3677686 , 0.40495867, 0.3966942 , ..., 0.35950413,
+16.7s	1138	         0.3553719 , 0.38429752]]], dtype=float32), 'target': array([ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  1,  1,  1,  1,  1,
+16.7s	1139	        1,  1,  1,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  3,
+16.7s	1140	        3,  3,  3,  3,  3,  3,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  5,
+16.7s	1141	        5,  5,  5,  5,  5,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,
+16.7s	1142	        6,  6,  7,  7,  7,  7,  7,  7,  7,  7,  7,  7,  8,  8,  8,  8,  8,
+16.7s	1143	        8,  8,  8,  8,  8,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9, 10, 10,
+16.7s	1144	       10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11,
+16.7s	1145	       11, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13,
+16.7s	1146	       13, 13, 13, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 15, 15, 15,
+16.7s	1147	       15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16,
+16.7s	1148	       17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 18, 18,
+16.7s	1149	       18, 18, 18, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 20, 20, 20, 20,
+16.7s	1150	       20, 20, 20, 20, 20, 20, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 22,
+16.7s	1151	       22, 22, 22, 22, 22, 22, 22, 22, 22, 23, 23, 23, 23, 23, 23, 23, 23,
+16.7s	1152	       23, 23, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 25,
+16.7s	1153	       25, 25, 25, 25, 25, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 27, 27,
+16.7s	1154	       27, 27, 27, 27, 27, 27, 27, 27, 28, 28, 28, 28, 28, 28, 28, 28, 28,
+16.7s	1155	       28, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 30, 30, 30, 30, 30, 30,
+16.7s	1156	       30, 30, 30, 30, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 32, 32, 32,
+16.7s	1157	       32, 32, 32, 32, 32, 32, 32, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33,
+16.7s	1158	       34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 35, 35, 35, 35, 35, 35, 35,
+16.7s	1159	       35, 35, 35, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 37, 37, 37, 37,
+16.7s	1160	       37, 37, 37, 37, 37, 37, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 39,
+16.7s	1161	       39, 39, 39, 39, 39, 39, 39, 39, 39]), 'DESCR': '.. _olivetti_faces_dataset:\n\nThe Olivetti faces dataset\n--------------------------\n\n`This dataset contains a set of face images`_ taken between April 1992 and\nApril 1994 at AT&T Laboratories Cambridge. The\n:func:`sklearn.datasets.fetch_olivetti_faces` function is the data\nfetching / caching function that downloads the data\narchive from AT&T.\n\n.. _This dataset contains a set of face images: https://cam-orl.co.uk/facedatabase.html\n\nAs described on the original website:\n\n    There are ten different images of each of 40 distinct subjects. For some\n    subjects, the images were taken at different times, varying the lighting,\n    facial expressions (open / closed eyes, smiling / not smiling) and facial\n    details (glasses / no glasses). All the images were taken against a dark\n    homogeneous background with the subjects in an upright, frontal position\n    (with tolerance for some side movement).\n\n**Data Set Characteristics:**\n\n=================   =====================\nClasses                                40\nSamples total                         400\nDimensionality                       4096\nFeatures            real, between 0 and 1\n=================   =====================\n\nThe image is quantized to 256 grey levels and stored as unsigned 8-bit\nintegers; the loader will convert these to floating point values on the\ninterval [0, 1], which are easier to work with for many algorithms.\n\nThe "target" for this database is an integer from 0 to 39 indicating the\nidentity of the person pictured; however, with only 10 examples per class, this\nrelatively small dataset is more interesting from an unsupervised or\nsemi-supervised perspective.\n\nThe original dataset consisted of 92 x 112, while the version available here\nconsists of 64x64 images.\n\nWhen using these images, please give credit to AT&T Laboratories Cambridge.\n'}
+16.7s	1162	26005
+18.5s	1163	Depth   Leaf Size   Train Accuracy    Validation Accuracy
+18.5s	1164	2       1           0.0750            0.0625
+18.8s	1165	2       2           0.0750            0.0625
+19.1s	1166	2       4           0.0750            0.0625
+20.3s	1167	8       1           0.2250            0.1875
+21.5s	1168	8       2           0.2250            0.1875
+22.7s	1169	8       4           0.2250            0.1875
+23.3s	1170	4       1           0.1250            0.1125
+23.9s	1171	4       2           0.1250            0.1125
+24.5s	1172	4       4           0.1250            0.1125
+26.6s	1173	16      1           0.4250            0.2750
+28.7s	1174	16      2           0.4250            0.2750
+30.7s	1175	16      4           0.4250            0.2750
+33.9s	1176	None    1           1.0000            0.6125
+37.0s	1177	None    2           0.9875            0.5875
+39.8s	1178	None    4           0.9792            0.5750
+39.8s	1179	Depth: None
+39.8s	1180	Minimum leaf size: 1
+39.8s	1181	Training accuracy: 1.0
+39.8s	1182	Validation accuracy: 0.6125
+39.9s	1183	Results/solution
+39.9s	1184	
+39.9s	1185	Depth: None
+39.9s	1186	Minimum leaf size: 1
+39.9s	1187	Training accuracy: 1.0
+39.9s	1188	Validation accuracy: 0.6125
+39.9s	1189	Test accuracy: 0.4625
+39.9s	1190	Number of leaves: 46
+39.9s	1191	Mean samples per leaf: 5.22
+39.9s	1192	Fraction of leaves with one training image: 0.1304
+490.4s	1193	B       Train Accuracy    Validation Accuracy   Test Accuracy     Distinct Images
+490.4s	1194	1       0.7208            0.4000                0.3875            149.00
+490.4s	1195	5       0.9750            0.6000                0.6750            152.20
+490.4s	1196	10      0.9958            0.7250                0.7875            151.50
+490.4s	1197	25      1.0000            0.8500                0.8875            152.24
+490.4s	1198	50      1.0000            0.8750                0.9125            152.74
+490.4s	1199	100     1.0000            0.9125                0.9125            152.43
+490.4s	1200	200     1.0000            0.9125                0.8875            152.70
+490.4s	1201	
+490.4s	1202	Theoretical Expected distinct images: 151.89
+490.4s	1203	
+490.4s	1204	Comparison with observed values:
+490.4s	1205	B       Observed    Expected              
+490.4s	1206	1       149.00      151.8932
+490.4s	1207	5       152.20      151.8932
+490.4s	1208	10      151.50      151.8932
+490.4s	1209	25      152.24      151.8932
+490.4s	1210	50      152.74      151.8932
+490.4s	1211	100     152.43      151.8932
+490.4s	1212	200     152.70      151.8932
+490.6s	1213	Graph
+491.4s	1214	B       OOB Accuracy      Disagreement      Mean Vote Margin
+491.4s	1215	1       0.2637            N/A               1.0000
+491.4s	1216	5       0.3641            0.7250            0.2825
+491.4s	1217	10      0.4008            0.7281            0.3112
+491.4s	1218	25      0.5958            0.7477            0.3045
+491.4s	1219	50      0.6708            0.7543            0.3065
+491.4s	1220	100     0.7292            0.7633            0.3078
+491.4s	1221	200     0.7792            0.7580            0.3163
+492.2s	1222	Test Set    Model             Accuracy       Mean Confidence
+492.2s	1223	Clean       Single Tree       0.4625         1.0000
+492.2s	1224	Clean       Bagging (100)     0.9125         0.4029
+492.2s	1225	Masked      Single Tree       0.4625         1.0000
+492.2s	1226	Masked      Bagging (100)     0.7250         0.3047
+492.2s	1227	
+492.2s	1228	Two cases where bagging corrects the tree
+492.2s	1229	
+492.2s	1230	Test image position: 0
+492.2s	1231	Original dataset image ID: 2
+492.2s	1232	True identity: 0
+492.2s	1233	Single-tree prediction: 7
+492.2s	1234	Bagging prediction: 0
+492.2s	1235	Bagging votes for tree prediction: 9
+492.2s	1236	Bagging votes for true identity: 18
+492.2s	1237	Bagging votes for bagging prediction: 18
+492.2s	1238	
+492.2s	1239	Test image position: 2
+492.2s	1240	Original dataset image ID: 18
+492.2s	1241	True identity: 1
+492.2s	1242	Single-tree prediction: 15
+492.2s	1243	Bagging prediction: 1
+492.2s	1244	Bagging votes for tree prediction: 2
+492.2s	1245	Bagging votes for true identity: 60
+492.2s	1246	Bagging votes for bagging prediction: 60
+492.2s	1247	
+492.2s	1248	Two cases where both models are wrong
+492.2s	1249	
+492.2s	1250	Test image position: 25
+492.2s	1251	Original dataset image ID: 125
+492.2s	1252	True identity: 12
+492.2s	1253	Single-tree prediction: 24
+492.2s	1254	Bagging prediction: 1
+492.2s	1255	Bagging votes for tree prediction: 1
+492.2s	1256	Bagging votes for true identity: 6
+492.2s	1257	Bagging votes for bagging prediction: 30
+492.2s	1258	
+492.2s	1259	Test image position: 29
+492.2s	1260	Original dataset image ID: 145
+492.2s	1261	True identity: 14
+492.2s	1262	Single-tree prediction: 15
+492.2s	1263	Bagging prediction: 3
+492.2s	1264	Bagging votes for tree prediction: 5
+492.2s	1265	Bagging votes for true identity: 20
+492.2s	1266	Bagging votes for bagging prediction: 21
+492.6s	1267	Initial sample weights:
+492.6s	1268	[0.16666667 0.16666667 0.16666667 0.16666667 0.16666667 0.16666667]
+492.6s	1269	
+492.6s	1270	True labels:
+492.6s	1271	[0 0 1 1 2 2]
+492.6s	1272	
+492.6s	1273	Predictions:
+492.6s	1274	[0 0 1 1 1 1]
+492.6s	1275	
+492.6s	1276	Weighted error: 0.3333
+492.6s	1277	Learner weight (alpha): 1.3863
+492.6s	1278	
+492.6s	1279	Updated normalized sample weights:
+492.6s	1280	[0.0833 0.0833 0.0833 0.0833 0.3333 0.3333]
+492.6s	1281	Sum of updated weights: 1.0
+494.4s	1282	Number of boosting rounds completed: 10
+494.4s	1283	Learner weights (alphas): [0.7191 0.7465 0.7753 0.8058 0.8381 0.8723 0.9087 0.9474 0.9887 1.033 ]
+529.4s	1284	Depth: 1   Rounds: 10   Completed: 10   Validation accuracy: 0.0500
+533.8s	1285	Depth: 1   Rounds: 25   Completed: 25   Validation accuracy: 0.0750
+542.1s	1286	Depth: 1   Rounds: 50   Completed: 50   Validation accuracy: 0.1625
+558.6s	1287	Depth: 1   Rounds: 100  Completed: 100  Validation accuracy: 0.1125
+561.9s	1288	Depth: 2   Rounds: 10   Completed: 10   Validation accuracy: 0.0625
+570.1s	1289	Depth: 2   Rounds: 25   Completed: 25   Validation accuracy: 0.0875
+586.4s	1290	Depth: 2   Rounds: 50   Completed: 50   Validation accuracy: 0.2750
+619.8s	1291	Depth: 2   Rounds: 100  Completed: 100  Validation accuracy: 0.2625
+624.9s	1292	Depth: 3   Rounds: 10   Completed: 10   Validation accuracy: 0.1125
+637.2s	1293	Depth: 3   Rounds: 25   Completed: 25   Validation accuracy: 0.2250
+661.8s	1294	Depth: 3   Rounds: 50   Completed: 50   Validation accuracy: 0.2500
+711.1s	1295	Depth: 3   Rounds: 100  Completed: 100  Validation accuracy: 0.3250
+717.8s	1296	Depth: 4   Rounds: 10   Completed: 10   Validation accuracy: 0.1500
+734.2s	1297	Depth: 4   Rounds: 25   Completed: 25   Validation accuracy: 0.3000
+767.0s	1298	Depth: 4   Rounds: 50   Completed: 50   Validation accuracy: 0.4500
+832.0s	1299	Depth: 4   Rounds: 100  Completed: 100  Validation accuracy: 0.4125
+832.0s	1300	
+832.0s	1301	Best depth: 4
+832.0s	1302	Best requested rounds: 50
+832.0s	1303	Actual rounds completed: 50
+832.0s	1304	Best validation accuracy: 0.45
+1247.7s	1305	Boosting requested: 25, learners completed: 25
+1280.9s	1306	Boosting requested: 50, learners completed: 50
+1347.1s	1307	Boosting requested: 100, learners completed: 100
+1347.1s	1308	ACCURACY COMPARISON
+1347.1s	1309	Model       Learners  Train Acc   Val Acc     Clean Test  Train Time(s)  
+1347.1s	1310	Bagging     25        1.0000      0.8500      0.8375      56.3413        
+1347.1s	1311	Boosting    25        0.4625      0.3000      0.1625      16.9855        
+1347.1s	1312	Bagging     50        1.0000      0.8625      0.8375      112.4775       
+1347.3s	1313	Boosting    50        0.9375      0.4500      0.3500      33.1404        
+1347.3s	1314	Bagging     100       1.0000      0.8875      0.9000      228.8348       
+1347.6s	1315	Boosting    100       0.9875      0.4125      0.4000      66.2356        
+1414.4s	1316	DIFFICULT TRAINING FACE
+1414.4s	1317	Training-set index: 71
+1414.4s	1318	True identity: 11
+1414.4s	1319	Initial weight: 0.004167
+1414.4s	1320	Final weight: 0.067203
+1414.4s	1321	Weight relative to initial: 16.13 times
+1414.4s	1322	Predictions across rounds:
+1414.4s	1323	[0, 1, 11, 3, 4, 25, 27, 16, 2, 3, 13, 11, 4, 12, 20, 2, 10, 24, 1, 30, 11, 15, 22, 12, 2, 39, 3, 4, 11, 12, 20, 25, 2, 3, 26, 4, 11, 12, 20, 2, 9, 3, 14, 4, 11, 16, 20, 39, 24, 3, 23, 0, 4, 11, 20, 39, 14, 3, 33, 4, 17, 11, 23, 14, 1, 3, 8, 16, 15, 11, 23, 14, 20, 1, 3, 2, 22, 11, 27, 20, 28, 3, 38, 4, 11, 12, 27, 14, 20, 3, 8, 4, 11, 12, 14, 39, 20, 3, 8, 4]
+1414.4s	1324	Correctly predicted rounds: [3, 12, 21, 29, 37, 45, 54, 62, 70, 78, 85, 93]
+1414.4s	1325	Correct rounds: 12 out of 100
+1414.4s	1326	Incorrect rounds: 88
+1415.5s	1327	Dataset   Model          Accuracy    Confidence  
+1415.5s	1328	Clean     Single Tree    0.4625      1.0000      
+1415.5s	1329	Clean     Bagging        0.9125      0.4029      
+1415.5s	1330	Clean     Boosting       0.3500      0.1275      
+1415.5s	1331	Masked    Single Tree    0.4625      1.0000      
+1415.5s	1332	Masked    Bagging        0.7250      0.3047      
+1415.5s	1333	Masked    Boosting       0.1750      0.1412      
+1415.6s	1334	Selected tree: DecisionTreeClassifier(random_state=26005)
+1415.6s	1335	Tree test accuracy: 0.4625
+1415.7s	1336	Test-set index: 0
+1415.7s	1337	True identity: 0
+1415.7s	1338	Bagging: clean = 0 , masked = 26
+1415.7s	1339	Boosting: clean = 2 , masked = 3
+1416.0s	1340	Boosting learners: 50
+1416.0s	1341	Boosting weights: 50
+1416.0s	1342	Selected depth: 4
+1416.0s	1343	Selected rounds: 50
+1653.6s	1344	Completed repetition 1/30
+1881.2s	1345	Completed repetition 2/30
+2110.6s	1346	Completed repetition 3/30
+2342.2s	1347	Completed repetition 4/30
+2572.6s	1348	Completed repetition 5/30
+2798.5s	1349	Completed repetition 6/30
+3032.7s	1350	Completed repetition 7/30
+3269.0s	1351	Completed repetition 8/30
+3492.4s	1352	Completed repetition 9/30
+3723.4s	1353	Completed repetition 10/30
+3964.5s	1354	Completed repetition 11/30
+4199.8s	1355	Completed repetition 12/30
+4435.0s	1356	Completed repetition 13/30
+4669.7s	1357	Completed repetition 14/30
+4905.1s	1358	Completed repetition 15/30
+5133.0s	1359	Completed repetition 16/30
+5366.7s	1360	Completed repetition 17/30
+5607.5s	1361	Completed repetition 18/30
+5841.4s	1362	Completed repetition 19/30
+6068.3s	1363	Completed repetition 20/30
+6296.2s	1364	Completed repetition 21/30
+6528.1s	1365	Completed repetition 22/30
+6767.2s	1366	Completed repetition 23/30
+6997.3s	1367	Completed repetition 24/30
+7229.2s	1368	Completed repetition 25/30
+7466.2s	1369	Completed repetition 26/30
+7695.8s	1370	Completed repetition 27/30
+7928.5s	1371	Completed repetition 28/30
+8161.6s	1372	Completed repetition 29/30
+8405.6s	1373	Completed repetition 30/30
+8405.6s	1374	
+8405.6s	1375	Total time: 116.49 minutes
+8405.6s	1376	BIAS-VARIANCE AND TEST ACCURACY
+8405.6s	1377	Model       Bias^2      Variance    Mean Acc    Std Acc     
+8405.6s	1378	Single Tree 0.4243      0.6674      0.4542      0.0502      
+8405.6s	1379	Bagging     0.1652      0.2748      0.7800      0.0320      
+8405.6s	1380	Boosting    0.7676      0.7324      0.2500      0.0721      
+19688.7s	1381	Total time: 188.05 minutes
+19688.7s	1382	DEPTH COMPARISON
+19688.7s	1383	Depth     Model         Bias^2    Variance    Mean Acc    Std Acc   
+19688.7s	1384	2         Single Tree   1.7997    0.0820      0.0592      0.0064    
+19688.7s	1385	2         Bagging       0.9398    0.8261      0.1171      0.0513    
+19688.7s	1386	None      Single Tree   0.4243    0.6674      0.4542      0.0502    
+19688.7s	1387	None      Bagging       0.1652    0.2748      0.7800      0.0320    
+19688.7s	1388	16        Single Tree   0.8940    0.5785      0.2637      0.0328    
+19688.7s	1389	16        Bagging       0.3460    0.4290      0.6125      0.0531    
+19689.0s	1390	
+19689.0s	1391	Depth: 2
+19689.0s	1392	Accuracy improvement: 5.79 percentage points
+19689.0s	1393	Bias² reduction: 0.8599
+19689.0s	1394	Variance change: +0.7441
+19689.0s	1395	
+19689.0s	1396	Depth: None
+19689.0s	1397	Accuracy improvement: 32.58 percentage points
+19689.0s	1398	Bias² reduction: 0.2591
+19689.0s	1399	Variance change: -0.3926
+19689.0s	1400	
+19689.0s	1401	Depth: 16
+19689.0s	1402	Accuracy improvement: 34.88 percentage points
+19689.0s	1403	Bias² reduction: 0.5480
+19689.0s	1404	Variance change: -0.1495
+19689.1s	1405	                     Model  Clean Test Accuracy (%)  Masked Test Accuracy (%)  Bias Squared  Variance
+19689.1s	1406	               Single Tree                    46.25                     46.25        0.4243    0.6674
+19689.1s	1407	       Bagging (100 trees)                    91.25                     72.50        0.1652    0.2748
+19689.1s	1408	SAMME Boosting (50 rounds)                    35.00                     17.50        0.7676    0.7324
+19693.1s	1409	/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+19693.1s	1410	  cells[i][c] = re.sub('\\\\\|', '|', cell)
+19693.3s	1411	/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+19693.3s	1412	  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+19694.3s	1413	[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+19694.5s	1414	[NbConvertApp] Writing 847773 bytes to __notebook__.ipynb
+19697.9s	1415	[NbConvertApp] Converting notebook __notebook__.ipynb to html
+19698.9s	1416	[NbConvertApp] Support files will be in __results___files/
+19698.9s	1417	[NbConvertApp] Making directory __results___files
+19698.9s	1418	[NbConvertApp] Making directory __results___files
+19698.9s	1419	[NbConvertApp] Making directory __results___files
+19698.9s	1420	[NbConvertApp] Making directory __results___files
+19698.9s	1421	[NbConvertApp] Making directory __results___files
+19698.9s	1422	[NbConvertApp] Making directory __results___files
+19698.9s	1423	[NbConvertApp] Making directory __results___files
+19698.9s	1424	[NbConvertApp] Making directory __results___files
+19698.9s	1425	[NbConvertApp] Making directory __results___files
+19698.9s	1426	[NbConvertApp] Making directory __results___files
+19698.9s	1427	[NbConvertApp] Making directory __results___files
+19698.9s	1428	[NbConvertApp] Making directory __results___files
+19698.9s	1429	[NbConvertApp] Making directory __results___files
+19698.9s	1430	[NbConvertApp] Making directory __results___files
+19698.9s	1431	[NbConvertApp] Making directory __results___files
+19698.9s	1432	[NbConvertApp] Making directory __results___files
+19698.9s	1433	[NbConvertApp] Making directory __results___files
+19698.9s	1434	[NbConvertApp] Writing 534384 bytes to __results__.html
